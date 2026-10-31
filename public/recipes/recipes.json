@@ -1,0 +1,2559 @@
+{
+  "AMBER_MATERIAL": {
+    "id": "AMBER_MATERIAL",
+    "name": "Amber Material",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GOLDEN_PLATE:1",
+          "FINE_AMBER_GEM:12"
+        ],
+        "count": 1,
+        "overrideOutputId": "AMBER_MATERIAL",
+        "duration": 21600
+      }
+    ]
+  },
+  "GOLDEN_PLATE": {
+    "id": "GOLDEN_PLATE",
+    "name": "Golden Plate",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_GOLD_BLOCK:2",
+          "REFINED_DIAMOND:1",
+          "GLACITE_JEWEL:5"
+        ],
+        "count": 1,
+        "overrideOutputId": "GOLDEN_PLATE",
+        "duration": 21600
+      }
+    ]
+  },
+  "ENCHANTED_GOLD_BLOCK": {
+    "id": "ENCHANTED_GOLD_BLOCK",
+    "name": "Enchanted Gold Block",
+    "recipes": []
+  },
+  "REFINED_DIAMOND": {
+    "id": "REFINED_DIAMOND",
+    "name": "Refined Diamond",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_DIAMOND_BLOCK:2"
+        ],
+        "count": 1,
+        "overrideOutputId": "REFINED_DIAMOND",
+        "duration": 28800
+      }
+    ]
+  },
+  "ENCHANTED_DIAMOND_BLOCK": {
+    "id": "ENCHANTED_DIAMOND_BLOCK",
+    "name": "Enchanted Diamond Block",
+    "recipes": []
+  },
+  "GLACITE_JEWEL": {
+    "id": "GLACITE_JEWEL",
+    "name": "Glacite Jewel",
+    "recipes": []
+  },
+  "FINE_AMBER_GEM": {
+    "id": "FINE_AMBER_GEM",
+    "name": " Fine Amber Gemstone",
+    "recipes": []
+  },
+  "AMBER_NECKLACE": {
+    "id": "AMBER_NECKLACE",
+    "name": "Amber Necklace",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GLOSSY_GEMSTONE:32.0",
+          "FLAWLESS_AMBER_GEM:2.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "AMBER_NECKLACE",
+        "duration": 86400
+      }
+    ]
+  },
+  "GLOSSY_GEMSTONE": {
+    "id": "GLOSSY_GEMSTONE",
+    "name": "Glossy Gemstone",
+    "recipes": []
+  },
+  "FLAWLESS_AMBER_GEM": {
+    "id": "FLAWLESS_AMBER_GEM",
+    "name": " Flawless Amber Gemstone",
+    "recipes": []
+  },
+  "AMBER_POLISHED_DRILL_ENGINE": {
+    "id": "AMBER_POLISHED_DRILL_ENGINE",
+    "name": "Amber-Polished Drill Engine",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "DRILL_ENGINE:5.0",
+          "PERFECT_AMBER_GEM:5.0",
+          "PRECURSOR_APPARATUS:16.0",
+          "SAPPHIRE_POLISHED_DRILL_ENGINE:1.0",
+          "PLASMA:32.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "AMBER_POLISHED_DRILL_ENGINE",
+        "duration": 30
+      }
+    ]
+  },
+  "DRILL_ENGINE": {
+    "id": "DRILL_ENGINE",
+    "name": "Drill Motor",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_IRON_BLOCK:1",
+          "ENCHANTED_REDSTONE_BLOCK:3",
+          "TREASURITE:10",
+          "GOLDEN_PLATE:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "DRILL_ENGINE",
+        "duration": 108000
+      }
+    ]
+  },
+  "ENCHANTED_IRON_BLOCK": {
+    "id": "ENCHANTED_IRON_BLOCK",
+    "name": "Enchanted Iron Block",
+    "recipes": []
+  },
+  "ENCHANTED_REDSTONE_BLOCK": {
+    "id": "ENCHANTED_REDSTONE_BLOCK",
+    "name": "Enchanted Redstone Block",
+    "recipes": [
+      {
+        "A1": "",
+        "A2": "ENCHANTED_REDSTONE:32",
+        "A3": "",
+        "B1": "ENCHANTED_REDSTONE:32",
+        "B2": "ENCHANTED_REDSTONE:32",
+        "B3": "ENCHANTED_REDSTONE:32",
+        "C1": "",
+        "C2": "ENCHANTED_REDSTONE:32",
+        "C3": "",
+        "type": "crafting",
+        "count": 1,
+        "overrideOutputId": "ENCHANTED_REDSTONE_BLOCK"
+      }
+    ]
+  },
+  "TREASURITE": {
+    "id": "TREASURITE",
+    "name": "Treasurite",
+    "recipes": []
+  },
+  "PERFECT_AMBER_GEM": {
+    "id": "PERFECT_AMBER_GEM",
+    "name": " Perfect Amber Gemstone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "AMBER_CRYSTAL:1",
+          "FLAWLESS_AMBER_GEM:5"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECT_AMBER_GEM",
+        "duration": 72000
+      }
+    ]
+  },
+  "AMBER_CRYSTAL": {
+    "id": "AMBER_CRYSTAL",
+    "name": "Amber Crystal",
+    "recipes": []
+  },
+  "PRECURSOR_APPARATUS": {
+    "id": "PRECURSOR_APPARATUS",
+    "name": "Precursor Apparatus",
+    "recipes": []
+  },
+  "SAPPHIRE_POLISHED_DRILL_ENGINE": {
+    "id": "SAPPHIRE_POLISHED_DRILL_ENGINE",
+    "name": "Sapphire-Polished Drill Engine",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "PERFECT_SAPPHIRE_GEM:3.0",
+          "DRILL_ENGINE:5.0",
+          "RUBY_POLISHED_DRILL_ENGINE:1.0",
+          "PLASMA:16.0",
+          "PRECURSOR_APPARATUS:8.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "SAPPHIRE_POLISHED_DRILL_ENGINE",
+        "duration": 30
+      }
+    ]
+  },
+  "PERFECT_SAPPHIRE_GEM": {
+    "id": "PERFECT_SAPPHIRE_GEM",
+    "name": " Perfect Sapphire Gemstone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_SAPPHIRE_GEM:5",
+          "SAPPHIRE_CRYSTAL:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECT_SAPPHIRE_GEM",
+        "duration": 72000
+      }
+    ]
+  },
+  "FLAWLESS_SAPPHIRE_GEM": {
+    "id": "FLAWLESS_SAPPHIRE_GEM",
+    "name": " Flawless Sapphire Gemstone",
+    "recipes": []
+  },
+  "SAPPHIRE_CRYSTAL": {
+    "id": "SAPPHIRE_CRYSTAL",
+    "name": "Sapphire Crystal",
+    "recipes": []
+  },
+  "RUBY_POLISHED_DRILL_ENGINE": {
+    "id": "RUBY_POLISHED_DRILL_ENGINE",
+    "name": "Ruby-Polished Drill Engine",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "PERFECT_RUBY_GEM:1.0",
+          "PRECURSOR_APPARATUS:4.0",
+          "TITANIUM_DRILL_ENGINE:1.0",
+          "DRILL_ENGINE:5.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "RUBY_POLISHED_DRILL_ENGINE",
+        "duration": 30
+      }
+    ]
+  },
+  "PERFECT_RUBY_GEM": {
+    "id": "PERFECT_RUBY_GEM",
+    "name": " Perfect Ruby Gemstone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "RUBY_CRYSTAL:1",
+          "FLAWLESS_RUBY_GEM:5"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECT_RUBY_GEM",
+        "duration": 72000
+      }
+    ]
+  },
+  "RUBY_CRYSTAL": {
+    "id": "RUBY_CRYSTAL",
+    "name": "Ruby Crystal",
+    "recipes": []
+  },
+  "FLAWLESS_RUBY_GEM": {
+    "id": "FLAWLESS_RUBY_GEM",
+    "name": " Flawless Ruby Gemstone",
+    "recipes": []
+  },
+  "TITANIUM_DRILL_ENGINE": {
+    "id": "TITANIUM_DRILL_ENGINE",
+    "name": "Titanium-Plated Drill Engine",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "DRILL_ENGINE:2",
+          "MITHRIL_DRILL_ENGINE:1",
+          "REFINED_TITANIUM:8"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_DRILL_ENGINE",
+        "duration": 30
+      }
+    ]
+  },
+  "MITHRIL_DRILL_ENGINE": {
+    "id": "MITHRIL_DRILL_ENGINE",
+    "name": "Mithril-Plated Drill Engine",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "MITHRIL_PLATE:1",
+          "DRILL_ENGINE:2"
+        ],
+        "count": 1,
+        "overrideOutputId": "MITHRIL_DRILL_ENGINE",
+        "duration": 86400
+      }
+    ]
+  },
+  "MITHRIL_PLATE": {
+    "id": "MITHRIL_PLATE",
+    "name": "Mithril Plate",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GOLDEN_PLATE:1",
+          "REFINED_TITANIUM:1",
+          "REFINED_MITHRIL:5",
+          "ENCHANTED_IRON_BLOCK:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "MITHRIL_PLATE",
+        "duration": 64800
+      }
+    ]
+  },
+  "REFINED_TITANIUM": {
+    "id": "REFINED_TITANIUM",
+    "name": "Refined Titanium",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_TITANIUM:16"
+        ],
+        "count": 1,
+        "overrideOutputId": "REFINED_TITANIUM",
+        "duration": 43200
+      }
+    ]
+  },
+  "ENCHANTED_TITANIUM": {
+    "id": "ENCHANTED_TITANIUM",
+    "name": "Enchanted Titanium",
+    "recipes": []
+  },
+  "REFINED_MITHRIL": {
+    "id": "REFINED_MITHRIL",
+    "name": "Refined Mithril",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_MITHRIL:160"
+        ],
+        "count": 1,
+        "overrideOutputId": "REFINED_MITHRIL",
+        "duration": 21600
+      }
+    ]
+  },
+  "ENCHANTED_MITHRIL": {
+    "id": "ENCHANTED_MITHRIL",
+    "name": "Enchanted Mithril",
+    "recipes": []
+  },
+  "PLASMA": {
+    "id": "PLASMA",
+    "name": "Plasma",
+    "recipes": []
+  },
+  "AMETHYST_GAUNTLET": {
+    "id": "AMETHYST_GAUNTLET",
+    "name": "Amethyst Gauntlet",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GLOSSY_GEMSTONE:32.0",
+          "FLAWLESS_AMETHYST_GEM:2.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "AMETHYST_GAUNTLET",
+        "duration": 86400
+      }
+    ]
+  },
+  "FLAWLESS_AMETHYST_GEM": {
+    "id": "FLAWLESS_AMETHYST_GEM",
+    "name": " Flawless Amethyst Gemstone",
+    "recipes": []
+  },
+  "AMMONITE;4": {
+    "id": "AMMONITE;4",
+    "name": "[Lvl {LVL}] Ammonite",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "HELIX:1",
+          "SKYBLOCK_COIN:300000"
+        ],
+        "count": 1,
+        "overrideOutputId": "AMMONITE;4",
+        "duration": 259200
+      }
+    ]
+  },
+  "HELIX": {
+    "id": "HELIX",
+    "name": "Helix Fossil",
+    "recipes": []
+  },
+  "ANKYLOSAURUS;4": {
+    "id": "ANKYLOSAURUS;4",
+    "name": "[Lvl {LVL}] Ankylosaurus",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_OPAL_GEM:1.0",
+          "CLUBBED_FOSSIL:1.0"
+        ],
+        "count": 1,
+        "duration": 604800,
+        "overrideOutputId": "ANKYLOSAURUS;4"
+      }
+    ]
+  },
+  "FLAWLESS_OPAL_GEM": {
+    "id": "FLAWLESS_OPAL_GEM",
+    "name": " Flawless Opal Gemstone",
+    "recipes": []
+  },
+  "CLUBBED_FOSSIL": {
+    "id": "CLUBBED_FOSSIL",
+    "name": "Clubbed Fossil",
+    "recipes": []
+  },
+  "BASE_CAMP_TRAVEL_SCROLL": {
+    "id": "BASE_CAMP_TRAVEL_SCROLL",
+    "name": "Travel Scroll to the Dwarven Base Camp",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "SKYBLOCK_COIN:500000.0",
+          "FLAWLESS_ONYX_GEM:1.0",
+          "ENCHANTED_ENDER_PEARL:16.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "BASE_CAMP_TRAVEL_SCROLL",
+        "duration": 36000
+      }
+    ]
+  },
+  "FLAWLESS_ONYX_GEM": {
+    "id": "FLAWLESS_ONYX_GEM",
+    "name": " Flawless Onyx Gemstone",
+    "recipes": []
+  },
+  "ENCHANTED_ENDER_PEARL": {
+    "id": "ENCHANTED_ENDER_PEARL",
+    "name": "Enchanted Ender Pearl",
+    "recipes": []
+  },
+  "BEACON_2": {
+    "id": "BEACON_2",
+    "name": "Beacon II",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_MITHRIL:5",
+          "BEACON_1:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "BEACON_2",
+        "duration": 72000
+      }
+    ]
+  },
+  "BEACON_1": {
+    "id": "BEACON_1",
+    "name": "Beacon I",
+    "recipes": []
+  },
+  "BEACON_3": {
+    "id": "BEACON_3",
+    "name": "Beacon III",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_MITHRIL:10",
+          "BEACON_2:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "BEACON_3",
+        "duration": 108000
+      }
+    ]
+  },
+  "BEACON_4": {
+    "id": "BEACON_4",
+    "name": "Beacon IV",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_MITHRIL:20",
+          "BEACON_3:1",
+          "PLASMA:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "BEACON_4",
+        "duration": 144000
+      }
+    ]
+  },
+  "BEACON_5": {
+    "id": "BEACON_5",
+    "name": "Beacon V",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "BEACON_4:1",
+          "REFINED_MITHRIL:40",
+          "PLASMA:5"
+        ],
+        "count": 1,
+        "overrideOutputId": "BEACON_5",
+        "duration": 180000
+      }
+    ]
+  },
+  "BEJEWELED_COLLAR": {
+    "id": "BEJEWELED_COLLAR",
+    "name": "Bejeweled Collar",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "BEJEWELED_HANDLE:1",
+          "REFINED_MITHRIL:4"
+        ],
+        "count": 1,
+        "overrideOutputId": "BEJEWELED_COLLAR",
+        "duration": 7200
+      }
+    ]
+  },
+  "BEJEWELED_HANDLE": {
+    "id": "BEJEWELED_HANDLE",
+    "name": "Bejeweled Handle",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GLACITE_JEWEL:3"
+        ],
+        "count": 1,
+        "overrideOutputId": "BEJEWELED_HANDLE",
+        "duration": 30
+      }
+    ]
+  },
+  "CRYSTAL_HOLLOWS_TRAVEL_SCROLL": {
+    "id": "CRYSTAL_HOLLOWS_TRAVEL_SCROLL",
+    "name": "Travel Scroll to the Crystal Hollows",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWED_RUBY_GEM:48",
+          "SKYBLOCK_COIN:50000",
+          "ENCHANTED_ENDER_PEARL:16",
+          "FINE_RUBY_GEM:80"
+        ],
+        "count": 1,
+        "overrideOutputId": "CRYSTAL_HOLLOWS_TRAVEL_SCROLL",
+        "duration": 36000
+      }
+    ]
+  },
+  "FLAWED_RUBY_GEM": {
+    "id": "FLAWED_RUBY_GEM",
+    "name": " Flawed Ruby Gemstone",
+    "recipes": []
+  },
+  "FINE_RUBY_GEM": {
+    "id": "FINE_RUBY_GEM",
+    "name": " Fine Ruby Gemstone",
+    "recipes": []
+  },
+  "DIAMONITE": {
+    "id": "DIAMONITE",
+    "name": "Diamonite",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_DIAMOND:3"
+        ],
+        "count": 1,
+        "overrideOutputId": "DIAMONITE",
+        "duration": 21600
+      }
+    ]
+  },
+  "DIVAN_BOOTS": {
+    "id": "DIVAN_BOOTS",
+    "name": "Boots of Divan",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GEMSTONE_MIXTURE:10",
+          "FLAWLESS_RUBY_GEM:1",
+          "DIVAN_FRAGMENT:4"
+        ],
+        "count": 1,
+        "overrideOutputId": "DIVAN_BOOTS",
+        "duration": 86400
+      }
+    ]
+  },
+  "GEMSTONE_MIXTURE": {
+    "id": "GEMSTONE_MIXTURE",
+    "name": "Gemstone Mixture",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FINE_JADE_GEM:4",
+          "SLUDGE_JUICE:320",
+          "FINE_AMBER_GEM:4",
+          "FINE_SAPPHIRE_GEM:4",
+          "FINE_AMETHYST_GEM:4"
+        ],
+        "count": 1,
+        "overrideOutputId": "GEMSTONE_MIXTURE",
+        "duration": 14400
+      }
+    ]
+  },
+  "FINE_JADE_GEM": {
+    "id": "FINE_JADE_GEM",
+    "name": " Fine Jade Gemstone",
+    "recipes": []
+  },
+  "SLUDGE_JUICE": {
+    "id": "SLUDGE_JUICE",
+    "name": "Sludge Juice",
+    "recipes": []
+  },
+  "FINE_SAPPHIRE_GEM": {
+    "id": "FINE_SAPPHIRE_GEM",
+    "name": " Fine Sapphire Gemstone",
+    "recipes": []
+  },
+  "FINE_AMETHYST_GEM": {
+    "id": "FINE_AMETHYST_GEM",
+    "name": " Fine Amethyst Gemstone",
+    "recipes": []
+  },
+  "DIVAN_FRAGMENT": {
+    "id": "DIVAN_FRAGMENT",
+    "name": "Divan Fragment",
+    "recipes": []
+  },
+  "DIVAN_CHESTPLATE": {
+    "id": "DIVAN_CHESTPLATE",
+    "name": "Chestplate of Divan",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GEMSTONE_MIXTURE:10",
+          "FLAWLESS_RUBY_GEM:1",
+          "DIVAN_FRAGMENT:8"
+        ],
+        "count": 1,
+        "overrideOutputId": "DIVAN_CHESTPLATE",
+        "duration": 86400
+      }
+    ]
+  },
+  "DIVAN_DRILL": {
+    "id": "DIVAN_DRILL",
+    "name": "Divan's Drill",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "TITANIUM_DRILL_4:1",
+          "SKYBLOCK_COIN:50000000",
+          "DIVAN_ALLOY:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "DIVAN_DRILL",
+        "duration": 30
+      }
+    ]
+  },
+  "TITANIUM_DRILL_4": {
+    "id": "TITANIUM_DRILL_4",
+    "name": "Titanium Drill DR-X655",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GEMSTONE_MIXTURE:16",
+          "FLAWLESS_RUBY_GEM:1",
+          "MITHRIL_PLATE:10",
+          "REFINED_TITANIUM:32",
+          "CORLEONITE:30",
+          "TITANIUM_DRILL_3:1",
+          "REFINED_DIAMOND:5"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_DRILL_4",
+        "duration": 30
+      }
+    ]
+  },
+  "CORLEONITE": {
+    "id": "CORLEONITE",
+    "name": "Corleonite",
+    "recipes": []
+  },
+  "TITANIUM_DRILL_3": {
+    "id": "TITANIUM_DRILL_3",
+    "name": "Titanium Drill DR-X555",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_DIAMOND:20",
+          "ENCHANTED_IRON_BLOCK:2",
+          "PLASMA:20",
+          "TITANIUM_DRILL_2:1",
+          "REFINED_TITANIUM:16",
+          "MITHRIL_PLATE:10"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_DRILL_3",
+        "duration": 30
+      }
+    ]
+  },
+  "TITANIUM_DRILL_2": {
+    "id": "TITANIUM_DRILL_2",
+    "name": "Titanium Drill DR-X455",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "MITHRIL_PLATE:5",
+          "REFINED_TITANIUM:12",
+          "REFINED_DIAMOND:10",
+          "TITANIUM_DRILL_1:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_DRILL_2",
+        "duration": 30
+      }
+    ]
+  },
+  "TITANIUM_DRILL_1": {
+    "id": "TITANIUM_DRILL_1",
+    "name": "Titanium Drill DR-X355",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FUEL_TANK:1",
+          "DRILL_ENGINE:1",
+          "REFINED_MITHRIL:8",
+          "REFINED_TITANIUM:8",
+          "GOLDEN_PLATE:6"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_DRILL_1",
+        "duration": 14400
+      }
+    ]
+  },
+  "FUEL_TANK": {
+    "id": "FUEL_TANK",
+    "name": "Fuel Canister",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_COAL_BLOCK:2"
+        ],
+        "count": 1,
+        "overrideOutputId": "FUEL_TANK",
+        "duration": 36000
+      }
+    ]
+  },
+  "ENCHANTED_COAL_BLOCK": {
+    "id": "ENCHANTED_COAL_BLOCK",
+    "name": "Enchanted Coal Block",
+    "recipes": []
+  },
+  "DIVAN_ALLOY": {
+    "id": "DIVAN_ALLOY",
+    "name": "Divan's Alloy",
+    "recipes": []
+  },
+  "DIVAN_HELMET": {
+    "id": "DIVAN_HELMET",
+    "name": "Helmet of Divan",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_RUBY_GEM:1",
+          "GEMSTONE_MIXTURE:10",
+          "DIVAN_FRAGMENT:5"
+        ],
+        "count": 1,
+        "overrideOutputId": "DIVAN_HELMET",
+        "duration": 86400
+      }
+    ]
+  },
+  "DIVAN_LEGGINGS": {
+    "id": "DIVAN_LEGGINGS",
+    "name": "Leggings of Divan",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "DIVAN_FRAGMENT:7",
+          "FLAWLESS_RUBY_GEM:1",
+          "GEMSTONE_MIXTURE:10"
+        ],
+        "count": 1,
+        "overrideOutputId": "DIVAN_LEGGINGS",
+        "duration": 86400
+      }
+    ]
+  },
+  "DIVAN_PENDANT": {
+    "id": "DIVAN_PENDANT",
+    "name": "Pendant of Divan",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "PERFECT_PLATE:1.0",
+          "DIVAN_FRAGMENT:10.0",
+          "SHATTERED_PENDANT:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "DIVAN_PENDANT",
+        "duration": 604800
+      }
+    ]
+  },
+  "PERFECT_PLATE": {
+    "id": "PERFECT_PLATE",
+    "name": "Perfect Plate",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "UMBER_PLATE:1.0",
+          "TUNGSTEN_PLATE:1.0",
+          "MITHRIL_PLATE:1.0"
+        ],
+        "count": 1,
+        "duration": 1800,
+        "overrideOutputId": "PERFECT_PLATE"
+      }
+    ]
+  },
+  "UMBER_PLATE": {
+    "id": "UMBER_PLATE",
+    "name": "Umber Plate",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_UMBER:4.0",
+          "GLACITE_AMALGAMATION:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "UMBER_PLATE",
+        "duration": 10800
+      }
+    ]
+  },
+  "REFINED_UMBER": {
+    "id": "REFINED_UMBER",
+    "name": "Refined Umber",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_UMBER:160"
+        ],
+        "count": 1,
+        "overrideOutputId": "REFINED_UMBER",
+        "duration": 3600
+      }
+    ]
+  },
+  "ENCHANTED_UMBER": {
+    "id": "ENCHANTED_UMBER",
+    "name": "Enchanted Umber",
+    "recipes": []
+  },
+  "GLACITE_AMALGAMATION": {
+    "id": "GLACITE_AMALGAMATION",
+    "name": "Glacite Amalgamation",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_GLACITE:256.0",
+          "FINE_PERIDOT_GEM:4.0",
+          "FINE_AQUAMARINE_GEM:4.0",
+          "FINE_CITRINE_GEM:4.0",
+          "FINE_ONYX_GEM:4.0"
+        ],
+        "count": 1,
+        "duration": 14400,
+        "overrideOutputId": "GLACITE_AMALGAMATION"
+      }
+    ]
+  },
+  "ENCHANTED_GLACITE": {
+    "id": "ENCHANTED_GLACITE",
+    "name": "Enchanted Glacite",
+    "recipes": []
+  },
+  "FINE_PERIDOT_GEM": {
+    "id": "FINE_PERIDOT_GEM",
+    "name": " Fine Peridot Gemstone",
+    "recipes": []
+  },
+  "FINE_AQUAMARINE_GEM": {
+    "id": "FINE_AQUAMARINE_GEM",
+    "name": " Fine Aquamarine Gemstone",
+    "recipes": []
+  },
+  "FINE_CITRINE_GEM": {
+    "id": "FINE_CITRINE_GEM",
+    "name": " Fine Citrine Gemstone",
+    "recipes": []
+  },
+  "FINE_ONYX_GEM": {
+    "id": "FINE_ONYX_GEM",
+    "name": " Fine Onyx Gemstone",
+    "recipes": []
+  },
+  "TUNGSTEN_PLATE": {
+    "id": "TUNGSTEN_PLATE",
+    "name": "Tungsten Plate",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GLACITE_AMALGAMATION:1.0",
+          "REFINED_TUNGSTEN:4.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "TUNGSTEN_PLATE",
+        "duration": 10800
+      }
+    ]
+  },
+  "REFINED_TUNGSTEN": {
+    "id": "REFINED_TUNGSTEN",
+    "name": "Refined Tungsten",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_TUNGSTEN:160.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "REFINED_TUNGSTEN",
+        "duration": 3600
+      }
+    ]
+  },
+  "ENCHANTED_TUNGSTEN": {
+    "id": "ENCHANTED_TUNGSTEN",
+    "name": "Enchanted Tungsten",
+    "recipes": []
+  },
+  "SHATTERED_PENDANT": {
+    "id": "SHATTERED_PENDANT",
+    "name": "Shattered Locket",
+    "recipes": []
+  },
+  "DIVAN_POWDER_COATING": {
+    "id": "DIVAN_POWDER_COATING",
+    "name": "Divan's Powder Coating",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_MINERAL:32.0",
+          "GLOSSY_GEMSTONE:32.0",
+          "ENCHANTED_GOLD_BLOCK:16.0",
+          "DIVAN_FRAGMENT:5.0"
+        ],
+        "count": 1,
+        "duration": 129600,
+        "overrideOutputId": "DIVAN_POWDER_COATING"
+      }
+    ]
+  },
+  "REFINED_MINERAL": {
+    "id": "REFINED_MINERAL",
+    "name": "Refined Mineral",
+    "recipes": []
+  },
+  "DWARVEN_HANDWARMERS": {
+    "id": "DWARVEN_HANDWARMERS",
+    "name": "Dwarven Handwarmers",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_JADE_GEM:1.0",
+          "UMBER_PLATE:1.0",
+          "FLAWLESS_AMBER_GEM:1.0",
+          "TUNGSTEN_PLATE:1.0"
+        ],
+        "count": 1,
+        "duration": 14400,
+        "overrideOutputId": "DWARVEN_HANDWARMERS"
+      }
+    ]
+  },
+  "FLAWLESS_JADE_GEM": {
+    "id": "FLAWLESS_JADE_GEM",
+    "name": " Flawless Jade Gemstone",
+    "recipes": []
+  },
+  "DWARVEN_METAL": {
+    "id": "DWARVEN_METAL",
+    "name": "Dwarven Metal Talisman",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_TUNGSTEN:4.0",
+          "REFINED_UMBER:4.0",
+          "GLACITE_AMALGAMATION:4.0"
+        ],
+        "count": 1,
+        "duration": 86400,
+        "overrideOutputId": "DWARVEN_METAL"
+      }
+    ]
+  },
+  "FORGE_TRAVEL_SCROLL": {
+    "id": "FORGE_TRAVEL_SCROLL",
+    "name": "Travel Scroll to the Dwarven Forge",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "SKYBLOCK_COIN:25000",
+          "ENCHANTED_ENDER_PEARL:16",
+          "MITHRIL_ORE:48",
+          "TITANIUM_ORE:80"
+        ],
+        "count": 1,
+        "overrideOutputId": "FORGE_TRAVEL_SCROLL",
+        "duration": 18000
+      }
+    ]
+  },
+  "MITHRIL_ORE": {
+    "id": "MITHRIL_ORE",
+    "name": "Mithril",
+    "recipes": []
+  },
+  "TITANIUM_ORE": {
+    "id": "TITANIUM_ORE",
+    "name": "Titanium",
+    "recipes": []
+  },
+  "FRIGID_HUSK": {
+    "id": "FRIGID_HUSK",
+    "name": "Frigid Husk",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_ONYX_GEM:1.0",
+          "GLACITE_AMALGAMATION:4.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "FRIGID_HUSK",
+        "duration": 21600
+      }
+    ]
+  },
+  "GEMSTONE_CHAMBER": {
+    "id": "GEMSTONE_CHAMBER",
+    "name": "Gemstone Chamber",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "WORM_MEMBRANE:100",
+          "GEMSTONE_MIXTURE:1",
+          "SKYBLOCK_COIN:25000"
+        ],
+        "count": 1,
+        "overrideOutputId": "GEMSTONE_CHAMBER",
+        "duration": 14400
+      }
+    ]
+  },
+  "WORM_MEMBRANE": {
+    "id": "WORM_MEMBRANE",
+    "name": "Worm Membrane",
+    "recipes": []
+  },
+  "GEMSTONE_DRILL_1": {
+    "id": "GEMSTONE_DRILL_1",
+    "name": "Ruby Drill TX-15",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "DRILL_ENGINE:1",
+          "FUEL_TANK:1",
+          "FINE_RUBY_GEM:6"
+        ],
+        "count": 1,
+        "overrideOutputId": "GEMSTONE_DRILL_1",
+        "duration": 14400
+      }
+    ]
+  },
+  "GEMSTONE_DRILL_2": {
+    "id": "GEMSTONE_DRILL_2",
+    "name": "Gemstone Drill LT-522",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GEMSTONE_DRILL_1:1",
+          "GEMSTONE_MIXTURE:3"
+        ],
+        "count": 1,
+        "overrideOutputId": "GEMSTONE_DRILL_2",
+        "duration": 30
+      }
+    ]
+  },
+  "GEMSTONE_DRILL_3": {
+    "id": "GEMSTONE_DRILL_3",
+    "name": "Topaz Drill KGR-12",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_TOPAZ_GEM:1",
+          "GEMSTONE_MIXTURE:3",
+          "GEMSTONE_DRILL_2:1",
+          "MAGMA_CORE:8"
+        ],
+        "count": 1,
+        "overrideOutputId": "GEMSTONE_DRILL_3",
+        "duration": 30
+      }
+    ]
+  },
+  "FLAWLESS_TOPAZ_GEM": {
+    "id": "FLAWLESS_TOPAZ_GEM",
+    "name": " Flawless Topaz Gemstone",
+    "recipes": []
+  },
+  "MAGMA_CORE": {
+    "id": "MAGMA_CORE",
+    "name": "Magma Core",
+    "recipes": []
+  },
+  "GEMSTONE_DRILL_4": {
+    "id": "GEMSTONE_DRILL_4",
+    "name": "Jasper Drill X",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "TREASURITE:100",
+          "FLAWLESS_JASPER_GEM:1",
+          "GEMSTONE_DRILL_3:1",
+          "MAGMA_CORE:16"
+        ],
+        "count": 1,
+        "overrideOutputId": "GEMSTONE_DRILL_4",
+        "duration": 30
+      }
+    ]
+  },
+  "FLAWLESS_JASPER_GEM": {
+    "id": "FLAWLESS_JASPER_GEM",
+    "name": " Flawless Jasper Gemstone",
+    "recipes": []
+  },
+  "GEMSTONE_FUEL_TANK": {
+    "id": "GEMSTONE_FUEL_TANK",
+    "name": "Gemstone Fuel Tank",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GEMSTONE_MIXTURE:10",
+          "TITANIUM_FUEL_TANK:1",
+          "PRECURSOR_APPARATUS:4"
+        ],
+        "count": 1,
+        "overrideOutputId": "GEMSTONE_FUEL_TANK",
+        "duration": 30
+      }
+    ]
+  },
+  "TITANIUM_FUEL_TANK": {
+    "id": "TITANIUM_FUEL_TANK",
+    "name": "Titanium-Infused Fuel Tank",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_DIAMOND:5",
+          "REFINED_TITANIUM:10",
+          "FUEL_TANK:5",
+          "MITHRIL_FUEL_TANK:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_FUEL_TANK",
+        "duration": 30
+      }
+    ]
+  },
+  "MITHRIL_FUEL_TANK": {
+    "id": "MITHRIL_FUEL_TANK",
+    "name": "Mithril-Infused Fuel Tank",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_DIAMOND:5",
+          "REFINED_MITHRIL:10",
+          "FUEL_TANK:5"
+        ],
+        "count": 1,
+        "overrideOutputId": "MITHRIL_FUEL_TANK",
+        "duration": 86400
+      }
+    ]
+  },
+  "GLACITE_CHISEL": {
+    "id": "GLACITE_CHISEL",
+    "name": "Glacite-Plated Chisel",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REINFORCED_CHISEL:1.0",
+          "BEJEWELED_HANDLE:1.0",
+          "GLACITE_AMALGAMATION:8.0",
+          "MITHRIL_PLATE:1.0"
+        ],
+        "count": 1,
+        "duration": 30,
+        "overrideOutputId": "GLACITE_CHISEL"
+      }
+    ]
+  },
+  "REINFORCED_CHISEL": {
+    "id": "REINFORCED_CHISEL",
+    "name": "Reinforced Chisel",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_TUNGSTEN:2",
+          "BEJEWELED_HANDLE:1",
+          "REFINED_UMBER:2",
+          "CHISEL:1"
+        ],
+        "count": 1,
+        "duration": 30,
+        "overrideOutputId": "REINFORCED_CHISEL"
+      }
+    ]
+  },
+  "CHISEL": {
+    "id": "CHISEL",
+    "name": "Chisel",
+    "recipes": []
+  },
+  "GLACITE_LANTERN": {
+    "id": "GLACITE_LANTERN",
+    "name": "Glacite Lantern",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "TITANIUM_LANTERN:1",
+          "GLACITE_AMALGAMATION:4",
+          "ENCHANTED_EMERALD_BLOCK:2"
+        ],
+        "count": 1,
+        "overrideOutputId": "GLACITE_LANTERN",
+        "duration": 43200
+      }
+    ]
+  },
+  "TITANIUM_LANTERN": {
+    "id": "TITANIUM_LANTERN",
+    "name": "Titanium Lantern",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "MITHRIL_LANTERN:1",
+          "REFINED_TITANIUM:2",
+          "ENCHANTED_EMERALD_BLOCK:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_LANTERN",
+        "duration": 14400
+      }
+    ]
+  },
+  "MITHRIL_LANTERN": {
+    "id": "MITHRIL_LANTERN",
+    "name": "Mithril Lantern",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "LANTERN:1",
+          "REFINED_MITHRIL:1",
+          "ENCHANTED_EMERALD:16"
+        ],
+        "count": 1,
+        "overrideOutputId": "MITHRIL_LANTERN",
+        "duration": 1800
+      }
+    ]
+  },
+  "LANTERN": {
+    "id": "LANTERN",
+    "name": "Dwarven Lantern",
+    "recipes": []
+  },
+  "ENCHANTED_EMERALD": {
+    "id": "ENCHANTED_EMERALD",
+    "name": "Enchanted Emerald",
+    "recipes": [
+      {
+        "type": "crafting",
+        "A1": "",
+        "A2": "EMERALD:32",
+        "A3": "",
+        "B1": "EMERALD:32",
+        "B2": "EMERALD:32",
+        "B3": "EMERALD:32",
+        "C1": "",
+        "C2": "EMERALD:32",
+        "C3": "",
+        "count": 1
+      },
+      {
+        "type": "crafting",
+        "A1": "",
+        "A2": "EMERALD_BLOCK:32",
+        "A3": "",
+        "B1": "EMERALD_BLOCK:32",
+        "B2": "EMERALD_BLOCK:32",
+        "B3": "EMERALD_BLOCK:32",
+        "C1": "",
+        "C2": "EMERALD_BLOCK:32",
+        "C3": "",
+        "count": 9
+      }
+    ]
+  },
+  "ENCHANTED_EMERALD_BLOCK": {
+    "id": "ENCHANTED_EMERALD_BLOCK",
+    "name": "Enchanted Emerald Block",
+    "recipes": []
+  },
+  "GLEAMING_CRYSTAL": {
+    "id": "GLEAMING_CRYSTAL",
+    "name": "Gleaming Crystal",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GLOSSY_GEMSTONE:32.0",
+          "REFINED_MITHRIL:1.0",
+          "REFINED_DIAMOND:2.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "GLEAMING_CRYSTAL",
+        "duration": 21600
+      }
+    ]
+  },
+  "GOBLIN;4": {
+    "id": "GOBLIN;4",
+    "name": "[Lvl {LVL}] Goblin",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_AMBER_GEM:1.0",
+          "UGLY_FOSSIL:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "GOBLIN;4",
+        "duration": 604800
+      }
+    ]
+  },
+  "UGLY_FOSSIL": {
+    "id": "UGLY_FOSSIL",
+    "name": "Ugly Fossil",
+    "recipes": []
+  },
+  "GOBLIN_OMELETTE": {
+    "id": "GOBLIN_OMELETTE",
+    "name": "Goblin Omelette",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GOBLIN_EGG:96"
+        ],
+        "count": 1,
+        "overrideOutputId": "GOBLIN_OMELETTE",
+        "duration": 64800
+      }
+    ]
+  },
+  "GOBLIN_EGG": {
+    "id": "GOBLIN_EGG",
+    "name": "Goblin Egg",
+    "recipes": []
+  },
+  "GOBLIN_OMELETTE_BLUE_CHEESE": {
+    "id": "GOBLIN_OMELETTE_BLUE_CHEESE",
+    "name": "Blue Cheese Goblin Omelette",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GOBLIN_OMELETTE:1",
+          "FLAWLESS_SAPPHIRE_GEM:1",
+          "GOBLIN_EGG_BLUE:96"
+        ],
+        "count": 1,
+        "overrideOutputId": "GOBLIN_OMELETTE_BLUE_CHEESE",
+        "duration": 64800
+      }
+    ]
+  },
+  "GOBLIN_EGG_BLUE": {
+    "id": "GOBLIN_EGG_BLUE",
+    "name": "Blue Goblin Egg",
+    "recipes": []
+  },
+  "GOBLIN_OMELETTE_PESTO": {
+    "id": "GOBLIN_OMELETTE_PESTO",
+    "name": "Pesto Goblin Omelette",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_JADE_GEM:1",
+          "GOBLIN_EGG_GREEN:96",
+          "GOBLIN_OMELETTE:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "GOBLIN_OMELETTE_PESTO",
+        "duration": 64800
+      }
+    ]
+  },
+  "GOBLIN_EGG_GREEN": {
+    "id": "GOBLIN_EGG_GREEN",
+    "name": "Green Goblin Egg",
+    "recipes": []
+  },
+  "GOBLIN_OMELETTE_SPICY": {
+    "id": "GOBLIN_OMELETTE_SPICY",
+    "name": "Spicy Goblin Omelette",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_RUBY_GEM:1",
+          "GOBLIN_OMELETTE:1",
+          "GOBLIN_EGG_RED:96"
+        ],
+        "count": 1,
+        "overrideOutputId": "GOBLIN_OMELETTE_SPICY",
+        "duration": 64800
+      }
+    ]
+  },
+  "GOBLIN_EGG_RED": {
+    "id": "GOBLIN_EGG_RED",
+    "name": "Red Goblin Egg",
+    "recipes": []
+  },
+  "GOBLIN_OMELETTE_SUNNY_SIDE": {
+    "id": "GOBLIN_OMELETTE_SUNNY_SIDE",
+    "name": "Sunny Side Goblin Omelette",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GOBLIN_EGG_YELLOW:96",
+          "FLAWLESS_TOPAZ_GEM:1",
+          "GOBLIN_OMELETTE:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "GOBLIN_OMELETTE_SUNNY_SIDE",
+        "duration": 64800
+      }
+    ]
+  },
+  "GOBLIN_EGG_YELLOW": {
+    "id": "GOBLIN_EGG_YELLOW",
+    "name": "Yellow Goblin Egg",
+    "recipes": []
+  },
+  "HOT_STUFF": {
+    "id": "HOT_STUFF",
+    "name": "Scorched Topaz",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_TOPAZ_GEM:1",
+          "ENCHANTED_HARD_STONE:128"
+        ],
+        "count": 1,
+        "overrideOutputId": "HOT_STUFF",
+        "duration": 21600
+      }
+    ]
+  },
+  "ENCHANTED_HARD_STONE": {
+    "id": "ENCHANTED_HARD_STONE",
+    "name": "Enchanted Hard Stone",
+    "recipes": []
+  },
+  "JADE_BELT": {
+    "id": "JADE_BELT",
+    "name": "Jade Belt",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GLOSSY_GEMSTONE:32.0",
+          "FLAWLESS_JADE_GEM:2.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "JADE_BELT",
+        "duration": 86400
+      }
+    ]
+  },
+  "MAMMOTH;4": {
+    "id": "MAMMOTH;4",
+    "name": "[Lvl {LVL}] Mammoth",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "TUSK_FOSSIL:1.0",
+          "FLAWLESS_ONYX_GEM:1.0"
+        ],
+        "count": 1,
+        "duration": 604800,
+        "overrideOutputId": "MAMMOTH;4"
+      }
+    ]
+  },
+  "TUSK_FOSSIL": {
+    "id": "TUSK_FOSSIL",
+    "name": "Tusk Fossil",
+    "recipes": []
+  },
+  "MITHRIL_BELT": {
+    "id": "MITHRIL_BELT",
+    "name": "Mithril Belt",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_MITHRIL:3.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "MITHRIL_BELT",
+        "duration": 3600
+      }
+    ]
+  },
+  "MITHRIL_CLOAK": {
+    "id": "MITHRIL_CLOAK",
+    "name": "Mithril Cloak",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_MITHRIL:3.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "MITHRIL_CLOAK",
+        "duration": 3600
+      }
+    ]
+  },
+  "MITHRIL_DRILL_1": {
+    "id": "MITHRIL_DRILL_1",
+    "name": "Mithril Drill SX-R226",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_MITHRIL:3",
+          "DRILL_ENGINE:1",
+          "FUEL_TANK:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "MITHRIL_DRILL_1",
+        "duration": 14400
+      }
+    ]
+  },
+  "MITHRIL_DRILL_2": {
+    "id": "MITHRIL_DRILL_2",
+    "name": "Mithril Drill SX-R326",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GOLDEN_PLATE:1",
+          "MITHRIL_DRILL_1:1",
+          "MITHRIL_PLATE:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "MITHRIL_DRILL_2",
+        "duration": 30
+      }
+    ]
+  },
+  "MITHRIL_GAUNTLET": {
+    "id": "MITHRIL_GAUNTLET",
+    "name": "Mithril Gauntlet",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_MITHRIL:3.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "MITHRIL_GAUNTLET",
+        "duration": 3600
+      }
+    ]
+  },
+  "MITHRIL_NECKLACE": {
+    "id": "MITHRIL_NECKLACE",
+    "name": "Mithril Necklace",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_MITHRIL:3.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "MITHRIL_NECKLACE",
+        "duration": 3600
+      }
+    ]
+  },
+  "MOLE;4": {
+    "id": "MOLE;4",
+    "name": "[Lvl {LVL}] Mole",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "SKYBLOCK_COIN:300000.0",
+          "CLAW_FOSSIL:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "MOLE;4",
+        "duration": 259200
+      }
+    ]
+  },
+  "CLAW_FOSSIL": {
+    "id": "CLAW_FOSSIL",
+    "name": "Claw Fossil",
+    "recipes": []
+  },
+  "PENGUIN;4": {
+    "id": "PENGUIN;4",
+    "name": "[Lvl {LVL}] Penguin",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "WEBBED_FOSSIL:1.0",
+          "FLAWLESS_AQUAMARINE_GEM:1.0"
+        ],
+        "count": 1,
+        "duration": 604800,
+        "overrideOutputId": "PENGUIN;4"
+      }
+    ]
+  },
+  "WEBBED_FOSSIL": {
+    "id": "WEBBED_FOSSIL",
+    "name": "Webbed Fossil",
+    "recipes": []
+  },
+  "FLAWLESS_AQUAMARINE_GEM": {
+    "id": "FLAWLESS_AQUAMARINE_GEM",
+    "name": " Flawless Aquamarine Gemstone",
+    "recipes": []
+  },
+  "PERFECTLY_CUT_FUEL_TANK": {
+    "id": "PERFECTLY_CUT_FUEL_TANK",
+    "name": "Perfectly-Cut Fuel Tank",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GEMSTONE_FUEL_TANK:1.0",
+          "PRECURSOR_APPARATUS:16.0",
+          "GEMSTONE_MIXTURE:25.0",
+          "PLASMA:32.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECTLY_CUT_FUEL_TANK",
+        "duration": 30
+      }
+    ]
+  },
+  "PERFECT_AMETHYST_GEM": {
+    "id": "PERFECT_AMETHYST_GEM",
+    "name": " Perfect Amethyst Gemstone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "AMETHYST_CRYSTAL:1",
+          "FLAWLESS_AMETHYST_GEM:5"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECT_AMETHYST_GEM",
+        "duration": 72000
+      }
+    ]
+  },
+  "AMETHYST_CRYSTAL": {
+    "id": "AMETHYST_CRYSTAL",
+    "name": "Amethyst Crystal",
+    "recipes": []
+  },
+  "PERFECT_AQUAMARINE_GEM": {
+    "id": "PERFECT_AQUAMARINE_GEM",
+    "name": " Perfect Aquamarine Gemstone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "AQUAMARINE_CRYSTAL:1.0",
+          "FLAWLESS_AQUAMARINE_GEM:5.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECT_AQUAMARINE_GEM",
+        "duration": 72000
+      }
+    ]
+  },
+  "AQUAMARINE_CRYSTAL": {
+    "id": "AQUAMARINE_CRYSTAL",
+    "name": "Aquamarine Crystal",
+    "recipes": []
+  },
+  "PERFECT_CHISEL": {
+    "id": "PERFECT_CHISEL",
+    "name": "Perfect Chisel",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "BEJEWELED_HANDLE:1.0",
+          "GLACITE_CHISEL:1.0",
+          "PERFECT_PLATE:1.0"
+        ],
+        "count": 1,
+        "duration": 30,
+        "overrideOutputId": "PERFECT_CHISEL"
+      }
+    ]
+  },
+  "PERFECT_CITRINE_GEM": {
+    "id": "PERFECT_CITRINE_GEM",
+    "name": " Perfect Citrine Gemstone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_CITRINE_GEM:5.0",
+          "CITRINE_CRYSTAL:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECT_CITRINE_GEM",
+        "duration": 72000
+      }
+    ]
+  },
+  "FLAWLESS_CITRINE_GEM": {
+    "id": "FLAWLESS_CITRINE_GEM",
+    "name": " Flawless Citrine Gemstone",
+    "recipes": []
+  },
+  "CITRINE_CRYSTAL": {
+    "id": "CITRINE_CRYSTAL",
+    "name": "Citrine Crystal",
+    "recipes": []
+  },
+  "PERFECT_JADE_GEM": {
+    "id": "PERFECT_JADE_GEM",
+    "name": " Perfect Jade Gemstone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_JADE_GEM:5",
+          "JADE_CRYSTAL:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECT_JADE_GEM",
+        "duration": 72000
+      }
+    ]
+  },
+  "JADE_CRYSTAL": {
+    "id": "JADE_CRYSTAL",
+    "name": "Jade Crystal",
+    "recipes": []
+  },
+  "PERFECT_JASPER_GEM": {
+    "id": "PERFECT_JASPER_GEM",
+    "name": " Perfect Jasper Gemstone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_JASPER_GEM:5",
+          "JASPER_CRYSTAL:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECT_JASPER_GEM",
+        "duration": 72000
+      }
+    ]
+  },
+  "JASPER_CRYSTAL": {
+    "id": "JASPER_CRYSTAL",
+    "name": "Jasper Crystal",
+    "recipes": []
+  },
+  "PERFECT_ONYX_GEM": {
+    "id": "PERFECT_ONYX_GEM",
+    "name": " Perfect Onyx Gemstone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_ONYX_GEM:5.0",
+          "ONYX_CRYSTAL:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECT_ONYX_GEM",
+        "duration": 72000
+      }
+    ]
+  },
+  "ONYX_CRYSTAL": {
+    "id": "ONYX_CRYSTAL",
+    "name": "Onyx Crystal",
+    "recipes": []
+  },
+  "PERFECT_OPAL_GEM": {
+    "id": "PERFECT_OPAL_GEM",
+    "name": " Perfect Opal Gemstone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_OPAL_GEM:5",
+          "OPAL_CRYSTAL:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECT_OPAL_GEM",
+        "duration": 72000
+      }
+    ]
+  },
+  "OPAL_CRYSTAL": {
+    "id": "OPAL_CRYSTAL",
+    "name": "Opal Crystal",
+    "recipes": []
+  },
+  "PERFECT_PERIDOT_GEM": {
+    "id": "PERFECT_PERIDOT_GEM",
+    "name": " Perfect Peridot Gemstone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "PERIDOT_CRYSTAL:1.0",
+          "FLAWLESS_PERIDOT_GEM:5.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECT_PERIDOT_GEM",
+        "duration": 72000
+      }
+    ]
+  },
+  "PERIDOT_CRYSTAL": {
+    "id": "PERIDOT_CRYSTAL",
+    "name": "Peridot Crystal",
+    "recipes": []
+  },
+  "FLAWLESS_PERIDOT_GEM": {
+    "id": "FLAWLESS_PERIDOT_GEM",
+    "name": " Flawless Peridot Gemstone",
+    "recipes": []
+  },
+  "PERFECT_TOPAZ_GEM": {
+    "id": "PERFECT_TOPAZ_GEM",
+    "name": " Perfect Topaz Gemstone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_TOPAZ_GEM:5",
+          "TOPAZ_CRYSTAL:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "PERFECT_TOPAZ_GEM",
+        "duration": 72000
+      }
+    ]
+  },
+  "TOPAZ_CRYSTAL": {
+    "id": "TOPAZ_CRYSTAL",
+    "name": "Topaz Crystal",
+    "recipes": []
+  },
+  "PETRIFIED_STARFALL": {
+    "id": "PETRIFIED_STARFALL",
+    "name": "Petrified Starfall",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "STARFALL:512"
+        ],
+        "count": 1,
+        "overrideOutputId": "PETRIFIED_STARFALL",
+        "duration": 21600
+      }
+    ]
+  },
+  "STARFALL": {
+    "id": "STARFALL",
+    "name": "Starfall",
+    "recipes": []
+  },
+  "POCKET_ICEBERG": {
+    "id": "POCKET_ICEBERG",
+    "name": "Pocket Iceberg",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GLACITE_JEWEL:5.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "POCKET_ICEBERG",
+        "duration": 21600
+      }
+    ]
+  },
+  "POLISHED_TOPAZ_ROD": {
+    "id": "POLISHED_TOPAZ_ROD",
+    "name": "Topaz Rod",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "BEJEWELED_HANDLE:3.0",
+          "FLAWLESS_TOPAZ_GEM:2.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "POLISHED_TOPAZ_ROD",
+        "duration": 43200
+      }
+    ]
+  },
+  "PORTABLE_CAMPFIRE": {
+    "id": "PORTABLE_CAMPFIRE",
+    "name": "Portable Campfire",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_UMBER:1.0",
+          "MATCH_STICKS:16.0"
+        ],
+        "count": 1,
+        "duration": 1800,
+        "overrideOutputId": "PORTABLE_CAMPFIRE"
+      }
+    ]
+  },
+  "MATCH_STICKS": {
+    "id": "MATCH_STICKS",
+    "name": "Match-Sticks",
+    "recipes": []
+  },
+  "POWDER_OF_ONE": {
+    "id": "POWDER_OF_ONE",
+    "name": "Powder of One",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_MITHRIL:1.0",
+          "REFINED_TITANIUM:1.0"
+        ],
+        "count": 1,
+        "duration": 3600,
+        "overrideOutputId": "POWDER_OF_ONE"
+      }
+    ]
+  },
+  "POWDER_OF_THE_FEW": {
+    "id": "POWDER_OF_THE_FEW",
+    "name": "Powder of the Few",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "POWDER_OF_ONE:1.0",
+          "GEMSTONE_MIXTURE:4.0",
+          "REFINED_MINERAL:32.0"
+        ],
+        "count": 1,
+        "duration": 3600,
+        "overrideOutputId": "POWDER_OF_THE_FEW"
+      }
+    ]
+  },
+  "POWDER_OF_THE_MANY": {
+    "id": "POWDER_OF_THE_MANY",
+    "name": "Powder of the Many",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "POWDER_OF_THE_FEW:1.0",
+          "GLACITE_AMALGAMATION:4.0",
+          "GLOSSY_GEMSTONE:32.0"
+        ],
+        "count": 1,
+        "duration": 21600,
+        "overrideOutputId": "POWDER_OF_THE_MANY"
+      }
+    ]
+  },
+  "POWER_CRYSTAL": {
+    "id": "POWER_CRYSTAL",
+    "name": "Power Crystal",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "STARFALL:256"
+        ],
+        "count": 1,
+        "overrideOutputId": "POWER_CRYSTAL",
+        "duration": 7200
+      }
+    ]
+  },
+  "POWER_RELIC": {
+    "id": "POWER_RELIC",
+    "name": "Relic of Power",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "POWER_ARTIFACT:1.0",
+          "PERFECT_PLATE:1.0",
+          "GLACITE_AMALGAMATION:32.0"
+        ],
+        "count": 1,
+        "duration": 28800,
+        "overrideOutputId": "POWER_RELIC"
+      }
+    ]
+  },
+  "POWER_ARTIFACT": {
+    "id": "POWER_ARTIFACT",
+    "name": "Artifact of Power",
+    "recipes": []
+  },
+  "PRECURSOR_DRONE;4": {
+    "id": "PRECURSOR_DRONE;4",
+    "name": "[Lvl {LVL}] Precursor Drone",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "PRECURSOR_APPARATUS:1.0",
+          "SKYBLOCK_COIN:300000.0"
+        ],
+        "count": 1,
+        "duration": 259200,
+        "overrideOutputId": "PRECURSOR_DRONE;4"
+      }
+    ]
+  },
+  "PURE_MITHRIL": {
+    "id": "PURE_MITHRIL",
+    "name": "Pure Mithril",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_MITHRIL:2"
+        ],
+        "count": 1,
+        "overrideOutputId": "PURE_MITHRIL",
+        "duration": 21600
+      }
+    ]
+  },
+  "ROCK_GEMSTONE": {
+    "id": "ROCK_GEMSTONE",
+    "name": "Dwarven Geode",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "TREASURITE:64",
+          "ENCHANTED_COBBLESTONE:128"
+        ],
+        "count": 1,
+        "overrideOutputId": "ROCK_GEMSTONE",
+        "duration": 21600
+      }
+    ]
+  },
+  "ENCHANTED_COBBLESTONE": {
+    "id": "ENCHANTED_COBBLESTONE",
+    "name": "Enchanted Cobblestone",
+    "recipes": []
+  },
+  "SAPPHIRE_CLOAK": {
+    "id": "SAPPHIRE_CLOAK",
+    "name": "Sapphire Cloak",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FLAWLESS_SAPPHIRE_GEM:2.0",
+          "GLOSSY_GEMSTONE:32.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "SAPPHIRE_CLOAK",
+        "duration": 86400
+      }
+    ]
+  },
+  "SECRET_RAILROAD_PASS": {
+    "id": "SECRET_RAILROAD_PASS",
+    "name": "Secret Railroad Pass",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "CORLEONITE:8.0",
+          "REFINED_MITHRIL:2.0",
+          "FLAWLESS_RUBY_GEM:1.0"
+        ],
+        "count": 1,
+        "duration": 30,
+        "overrideOutputId": "SECRET_RAILROAD_PASS"
+      }
+    ]
+  },
+  "SKELETON_KEY": {
+    "id": "SKELETON_KEY",
+    "name": "Skeleton Key",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "BEJEWELED_HANDLE:1.0",
+          "PERFECT_PLATE:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "SKELETON_KEY",
+        "duration": 1800
+      }
+    ]
+  },
+  "SPINOSAURUS;4": {
+    "id": "SPINOSAURUS;4",
+    "name": "[Lvl {LVL}] Spinosaurus",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "SPINE_FOSSIL:1.0",
+          "FLAWLESS_AQUAMARINE_GEM:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "SPINOSAURUS;4",
+        "duration": 604800
+      }
+    ]
+  },
+  "SPINE_FOSSIL": {
+    "id": "SPINE_FOSSIL",
+    "name": "Spine Fossil",
+    "recipes": []
+  },
+  "STARFALL_SEASONING": {
+    "id": "STARFALL_SEASONING",
+    "name": "Starfall Seasoning",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "TREASURITE:16.0",
+          "STARFALL:64.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "STARFALL_SEASONING",
+        "duration": 64800
+      }
+    ]
+  },
+  "TITANIUM_ARTIFACT": {
+    "id": "TITANIUM_ARTIFACT",
+    "name": "Titanium Artifact",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_TITANIUM:12",
+          "TITANIUM_RING:1"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_ARTIFACT",
+        "duration": 129600
+      }
+    ]
+  },
+  "TITANIUM_RING": {
+    "id": "TITANIUM_RING",
+    "name": "Titanium Ring",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "TITANIUM_TALISMAN:1",
+          "REFINED_TITANIUM:6"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_RING",
+        "duration": 72000
+      }
+    ]
+  },
+  "TITANIUM_TALISMAN": {
+    "id": "TITANIUM_TALISMAN",
+    "name": "Titanium Talisman",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_TITANIUM:2"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_TALISMAN",
+        "duration": 50400
+      }
+    ]
+  },
+  "TITANIUM_BELT": {
+    "id": "TITANIUM_BELT",
+    "name": "Titanium Belt",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_TITANIUM:1.0",
+          "REFINED_MINERAL:16.0",
+          "MITHRIL_BELT:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_BELT",
+        "duration": 16200
+      }
+    ]
+  },
+  "TITANIUM_CLOAK": {
+    "id": "TITANIUM_CLOAK",
+    "name": "Titanium Cloak",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "MITHRIL_CLOAK:1.0",
+          "REFINED_TITANIUM:1.0",
+          "REFINED_MINERAL:16.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_CLOAK",
+        "duration": 16200
+      }
+    ]
+  },
+  "TITANIUM_GAUNTLET": {
+    "id": "TITANIUM_GAUNTLET",
+    "name": "Titanium Gauntlet",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_MINERAL:16.0",
+          "MITHRIL_GAUNTLET:1.0",
+          "REFINED_TITANIUM:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_GAUNTLET",
+        "duration": 16200
+      }
+    ]
+  },
+  "TITANIUM_NECKLACE": {
+    "id": "TITANIUM_NECKLACE",
+    "name": "Titanium Necklace",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "REFINED_TITANIUM:1.0",
+          "MITHRIL_NECKLACE:1.0",
+          "REFINED_MINERAL:16.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_NECKLACE",
+        "duration": 16200
+      }
+    ]
+  },
+  "TITANIUM_RELIC": {
+    "id": "TITANIUM_RELIC",
+    "name": "Titanium Relic",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "TITANIUM_ARTIFACT:1",
+          "REFINED_TITANIUM:20"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_RELIC",
+        "duration": 259200
+      }
+    ]
+  },
+  "TITANIUM_TESSERACT": {
+    "id": "TITANIUM_TESSERACT",
+    "name": "Titanium Tesseract",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_LAPIS_LAZULI:16.0",
+          "REFINED_TITANIUM:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "TITANIUM_TESSERACT",
+        "duration": 21600
+      }
+    ]
+  },
+  "ENCHANTED_LAPIS_LAZULI": {
+    "id": "ENCHANTED_LAPIS_LAZULI",
+    "name": "Enchanted Lapis Lazuli",
+    "recipes": [
+      {
+        "type": "crafting",
+        "A1": "",
+        "A2": "INK_SACK-4:32",
+        "A3": "",
+        "B1": "INK_SACK-4:32",
+        "B2": "INK_SACK-4:32",
+        "B3": "INK_SACK-4:32",
+        "C1": "",
+        "C2": "INK_SACK-4:32",
+        "C3": "",
+        "count": 1
+      },
+      {
+        "type": "crafting",
+        "A1": "",
+        "A2": "LAPIS_BLOCK:32",
+        "A3": "",
+        "B1": "LAPIS_BLOCK:32",
+        "B2": "LAPIS_BLOCK:32",
+        "B3": "LAPIS_BLOCK:32",
+        "C1": "",
+        "C2": "LAPIS_BLOCK:32",
+        "C3": "",
+        "count": 9
+      }
+    ]
+  },
+  "TUNGSTEN_KEY": {
+    "id": "TUNGSTEN_KEY",
+    "name": "Tungsten Key",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "ENCHANTED_TUNGSTEN:192.0",
+          "BEJEWELED_HANDLE:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "TUNGSTEN_KEY",
+        "duration": 30
+      }
+    ]
+  },
+  "TUNGSTEN_KEYCHAIN": {
+    "id": "TUNGSTEN_KEYCHAIN",
+    "name": "Tungsten Regulator",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "PERFECT_OPAL_GEM:1.0",
+          "FUEL_TANK:5.0",
+          "TUNGSTEN_PLATE:5.0"
+        ],
+        "count": 1,
+        "duration": 64800,
+        "overrideOutputId": "TUNGSTEN_KEYCHAIN"
+      }
+    ]
+  },
+  "TYRANNOSAURUS;4": {
+    "id": "TYRANNOSAURUS;4",
+    "name": "[Lvl {LVL}] T-Rex",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "FOOTPRINT_FOSSIL:1.0",
+          "FLAWLESS_ONYX_GEM:1.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "TYRANNOSAURUS;4",
+        "duration": 604800
+      }
+    ]
+  },
+  "FOOTPRINT_FOSSIL": {
+    "id": "FOOTPRINT_FOSSIL",
+    "name": "Footprint Fossil",
+    "recipes": []
+  },
+  "UMBER_KEY": {
+    "id": "UMBER_KEY",
+    "name": "Umber Key",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "BEJEWELED_HANDLE:1.0",
+          "ENCHANTED_UMBER:192.0"
+        ],
+        "count": 1,
+        "overrideOutputId": "UMBER_KEY",
+        "duration": 30
+      }
+    ]
+  },
+  "WILL_O_WISP": {
+    "id": "WILL_O_WISP",
+    "name": "Will-o'-wisp",
+    "recipes": [
+      {
+        "type": "forge",
+        "inputs": [
+          "GLACITE_LANTERN:1",
+          "CAGED_WISP:1",
+          "PERFECT_PLATE:1",
+          "EVERBURNING_FLAME:1",
+          "ENCHANTED_EMERALD_BLOCK:8"
+        ],
+        "count": 1,
+        "overrideOutputId": "WILL_O_WISP",
+        "duration": 86400
+      }
+    ]
+  },
+  "CAGED_WISP": {
+    "id": "CAGED_WISP",
+    "name": "Caged Wisp",
+    "recipes": []
+  },
+  "EVERBURNING_FLAME": {
+    "id": "EVERBURNING_FLAME",
+    "name": "Everburning Flame",
+    "recipes": []
+  }
+}
