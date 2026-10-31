@@ -64,7 +64,7 @@
   },
   "FINE_AMBER_GEM": {
     "id": "FINE_AMBER_GEM",
-    "name": " Fine Amber Gemstone",
+    "name": "Fine Amber Gemstone",
     "recipes": []
   },
   "AMBER_NECKLACE": {
@@ -90,7 +90,7 @@
   },
   "FLAWLESS_AMBER_GEM": {
     "id": "FLAWLESS_AMBER_GEM",
-    "name": " Flawless Amber Gemstone",
+    "name": "Flawless Amber Gemstone",
     "recipes": []
   },
   "AMBER_POLISHED_DRILL_ENGINE": {
@@ -138,22 +138,7 @@
   "ENCHANTED_REDSTONE_BLOCK": {
     "id": "ENCHANTED_REDSTONE_BLOCK",
     "name": "Enchanted Redstone Block",
-    "recipes": [
-      {
-        "A1": "",
-        "A2": "ENCHANTED_REDSTONE:32",
-        "A3": "",
-        "B1": "ENCHANTED_REDSTONE:32",
-        "B2": "ENCHANTED_REDSTONE:32",
-        "B3": "ENCHANTED_REDSTONE:32",
-        "C1": "",
-        "C2": "ENCHANTED_REDSTONE:32",
-        "C3": "",
-        "type": "crafting",
-        "count": 1,
-        "overrideOutputId": "ENCHANTED_REDSTONE_BLOCK"
-      }
-    ]
+    "recipes": []
   },
   "TREASURITE": {
     "id": "TREASURITE",
@@ -162,7 +147,7 @@
   },
   "PERFECT_AMBER_GEM": {
     "id": "PERFECT_AMBER_GEM",
-    "name": " Perfect Amber Gemstone",
+    "name": "Perfect Amber Gemstone",
     "recipes": [
       {
         "type": "forge",
@@ -207,7 +192,7 @@
   },
   "PERFECT_SAPPHIRE_GEM": {
     "id": "PERFECT_SAPPHIRE_GEM",
-    "name": " Perfect Sapphire Gemstone",
+    "name": "Perfect Sapphire Gemstone",
     "recipes": [
       {
         "type": "forge",
@@ -223,7 +208,7 @@
   },
   "FLAWLESS_SAPPHIRE_GEM": {
     "id": "FLAWLESS_SAPPHIRE_GEM",
-    "name": " Flawless Sapphire Gemstone",
+    "name": "Flawless Sapphire Gemstone",
     "recipes": []
   },
   "SAPPHIRE_CRYSTAL": {
@@ -251,7 +236,7 @@
   },
   "PERFECT_RUBY_GEM": {
     "id": "PERFECT_RUBY_GEM",
-    "name": " Perfect Ruby Gemstone",
+    "name": "Perfect Ruby Gemstone",
     "recipes": [
       {
         "type": "forge",
@@ -272,7 +257,7 @@
   },
   "FLAWLESS_RUBY_GEM": {
     "id": "FLAWLESS_RUBY_GEM",
-    "name": " Flawless Ruby Gemstone",
+    "name": "Flawless Ruby Gemstone",
     "recipes": []
   },
   "TITANIUM_DRILL_ENGINE": {
@@ -389,12 +374,12 @@
   },
   "FLAWLESS_AMETHYST_GEM": {
     "id": "FLAWLESS_AMETHYST_GEM",
-    "name": " Flawless Amethyst Gemstone",
+    "name": "Flawless Amethyst Gemstone",
     "recipes": []
   },
   "AMMONITE;4": {
     "id": "AMMONITE;4",
-    "name": "[Lvl {LVL}] Ammonite",
+    "name": "Ammonite Pet",
     "recipes": [
       {
         "type": "forge",
@@ -415,7 +400,7 @@
   },
   "ANKYLOSAURUS;4": {
     "id": "ANKYLOSAURUS;4",
-    "name": "[Lvl {LVL}] Ankylosaurus",
+    "name": "Ankylosaurus Pet",
     "recipes": [
       {
         "type": "forge",
@@ -431,7 +416,7 @@
   },
   "FLAWLESS_OPAL_GEM": {
     "id": "FLAWLESS_OPAL_GEM",
-    "name": " Flawless Opal Gemstone",
+    "name": "Flawless Opal Gemstone",
     "recipes": []
   },
   "CLUBBED_FOSSIL": {
@@ -458,7 +443,7 @@
   },
   "FLAWLESS_ONYX_GEM": {
     "id": "FLAWLESS_ONYX_GEM",
-    "name": " Flawless Onyx Gemstone",
+    "name": "Flawless Onyx Gemstone",
     "recipes": []
   },
   "ENCHANTED_ENDER_PEARL": {
@@ -588,12 +573,12 @@
   },
   "FLAWED_RUBY_GEM": {
     "id": "FLAWED_RUBY_GEM",
-    "name": " Flawed Ruby Gemstone",
+    "name": "Flawed Ruby Gemstone",
     "recipes": []
   },
   "FINE_RUBY_GEM": {
     "id": "FINE_RUBY_GEM",
-    "name": " Fine Ruby Gemstone",
+    "name": "Fine Ruby Gemstone",
     "recipes": []
   },
   "DIAMONITE": {
@@ -649,7 +634,7 @@
   },
   "FINE_JADE_GEM": {
     "id": "FINE_JADE_GEM",
-    "name": " Fine Jade Gemstone",
+    "name": "Fine Jade Gemstone",
     "recipes": []
   },
   "SLUDGE_JUICE": {
@@ -659,12 +644,12 @@
   },
   "FINE_SAPPHIRE_GEM": {
     "id": "FINE_SAPPHIRE_GEM",
-    "name": " Fine Sapphire Gemstone",
+    "name": "Fine Sapphire Gemstone",
     "recipes": []
   },
   "FINE_AMETHYST_GEM": {
     "id": "FINE_AMETHYST_GEM",
-    "name": " Fine Amethyst Gemstone",
+    "name": "Fine Amethyst Gemstone",
     "recipes": []
   },
   "DIVAN_FRAGMENT": {
@@ -944,22 +929,22 @@
   },
   "FINE_PERIDOT_GEM": {
     "id": "FINE_PERIDOT_GEM",
-    "name": " Fine Peridot Gemstone",
+    "name": "Fine Peridot Gemstone",
     "recipes": []
   },
   "FINE_AQUAMARINE_GEM": {
     "id": "FINE_AQUAMARINE_GEM",
-    "name": " Fine Aquamarine Gemstone",
+    "name": "Fine Aquamarine Gemstone",
     "recipes": []
   },
   "FINE_CITRINE_GEM": {
     "id": "FINE_CITRINE_GEM",
-    "name": " Fine Citrine Gemstone",
+    "name": "Fine Citrine Gemstone",
     "recipes": []
   },
   "FINE_ONYX_GEM": {
     "id": "FINE_ONYX_GEM",
-    "name": " Fine Onyx Gemstone",
+    "name": "Fine Onyx Gemstone",
     "recipes": []
   },
   "TUNGSTEN_PLATE": {
@@ -1046,7 +1031,7 @@
   },
   "FLAWLESS_JADE_GEM": {
     "id": "FLAWLESS_JADE_GEM",
-    "name": " Flawless Jade Gemstone",
+    "name": "Flawless Jade Gemstone",
     "recipes": []
   },
   "DWARVEN_METAL": {
@@ -1185,7 +1170,7 @@
   },
   "FLAWLESS_TOPAZ_GEM": {
     "id": "FLAWLESS_TOPAZ_GEM",
-    "name": " Flawless Topaz Gemstone",
+    "name": "Flawless Topaz Gemstone",
     "recipes": []
   },
   "MAGMA_CORE": {
@@ -1213,7 +1198,7 @@
   },
   "FLAWLESS_JASPER_GEM": {
     "id": "FLAWLESS_JASPER_GEM",
-    "name": " Flawless Jasper Gemstone",
+    "name": "Flawless Jasper Gemstone",
     "recipes": []
   },
   "GEMSTONE_FUEL_TANK": {
@@ -1421,7 +1406,7 @@
   },
   "GOBLIN;4": {
     "id": "GOBLIN;4",
-    "name": "[Lvl {LVL}] Goblin",
+    "name": "Goblin Pet",
     "recipes": [
       {
         "type": "forge",
@@ -1587,7 +1572,7 @@
   },
   "MAMMOTH;4": {
     "id": "MAMMOTH;4",
-    "name": "[Lvl {LVL}] Mammoth",
+    "name": "Mammoth Pet",
     "recipes": [
       {
         "type": "forge",
@@ -1702,7 +1687,7 @@
   },
   "MOLE;4": {
     "id": "MOLE;4",
-    "name": "[Lvl {LVL}] Mole",
+    "name": "Mole Pet",
     "recipes": [
       {
         "type": "forge",
@@ -1723,7 +1708,7 @@
   },
   "PENGUIN;4": {
     "id": "PENGUIN;4",
-    "name": "[Lvl {LVL}] Penguin",
+    "name": "Penguin Pet",
     "recipes": [
       {
         "type": "forge",
@@ -1744,7 +1729,7 @@
   },
   "FLAWLESS_AQUAMARINE_GEM": {
     "id": "FLAWLESS_AQUAMARINE_GEM",
-    "name": " Flawless Aquamarine Gemstone",
+    "name": "Flawless Aquamarine Gemstone",
     "recipes": []
   },
   "PERFECTLY_CUT_FUEL_TANK": {
@@ -1767,7 +1752,7 @@
   },
   "PERFECT_AMETHYST_GEM": {
     "id": "PERFECT_AMETHYST_GEM",
-    "name": " Perfect Amethyst Gemstone",
+    "name": "Perfect Amethyst Gemstone",
     "recipes": [
       {
         "type": "forge",
@@ -1788,7 +1773,7 @@
   },
   "PERFECT_AQUAMARINE_GEM": {
     "id": "PERFECT_AQUAMARINE_GEM",
-    "name": " Perfect Aquamarine Gemstone",
+    "name": "Perfect Aquamarine Gemstone",
     "recipes": [
       {
         "type": "forge",
@@ -1826,7 +1811,7 @@
   },
   "PERFECT_CITRINE_GEM": {
     "id": "PERFECT_CITRINE_GEM",
-    "name": " Perfect Citrine Gemstone",
+    "name": "Perfect Citrine Gemstone",
     "recipes": [
       {
         "type": "forge",
@@ -1842,7 +1827,7 @@
   },
   "FLAWLESS_CITRINE_GEM": {
     "id": "FLAWLESS_CITRINE_GEM",
-    "name": " Flawless Citrine Gemstone",
+    "name": "Flawless Citrine Gemstone",
     "recipes": []
   },
   "CITRINE_CRYSTAL": {
@@ -1852,7 +1837,7 @@
   },
   "PERFECT_JADE_GEM": {
     "id": "PERFECT_JADE_GEM",
-    "name": " Perfect Jade Gemstone",
+    "name": "Perfect Jade Gemstone",
     "recipes": [
       {
         "type": "forge",
@@ -1873,7 +1858,7 @@
   },
   "PERFECT_JASPER_GEM": {
     "id": "PERFECT_JASPER_GEM",
-    "name": " Perfect Jasper Gemstone",
+    "name": "Perfect Jasper Gemstone",
     "recipes": [
       {
         "type": "forge",
@@ -1894,7 +1879,7 @@
   },
   "PERFECT_ONYX_GEM": {
     "id": "PERFECT_ONYX_GEM",
-    "name": " Perfect Onyx Gemstone",
+    "name": "Perfect Onyx Gemstone",
     "recipes": [
       {
         "type": "forge",
@@ -1915,7 +1900,7 @@
   },
   "PERFECT_OPAL_GEM": {
     "id": "PERFECT_OPAL_GEM",
-    "name": " Perfect Opal Gemstone",
+    "name": "Perfect Opal Gemstone",
     "recipes": [
       {
         "type": "forge",
@@ -1936,7 +1921,7 @@
   },
   "PERFECT_PERIDOT_GEM": {
     "id": "PERFECT_PERIDOT_GEM",
-    "name": " Perfect Peridot Gemstone",
+    "name": "Perfect Peridot Gemstone",
     "recipes": [
       {
         "type": "forge",
@@ -1957,12 +1942,12 @@
   },
   "FLAWLESS_PERIDOT_GEM": {
     "id": "FLAWLESS_PERIDOT_GEM",
-    "name": " Flawless Peridot Gemstone",
+    "name": "Flawless Peridot Gemstone",
     "recipes": []
   },
   "PERFECT_TOPAZ_GEM": {
     "id": "PERFECT_TOPAZ_GEM",
-    "name": " Perfect Topaz Gemstone",
+    "name": "Perfect Topaz Gemstone",
     "recipes": [
       {
         "type": "forge",
@@ -2142,7 +2127,7 @@
   },
   "PRECURSOR_DRONE;4": {
     "id": "PRECURSOR_DRONE;4",
-    "name": "[Lvl {LVL}] Precursor Drone",
+    "name": "Precursor Drone Pet",
     "recipes": [
       {
         "type": "forge",
@@ -2243,7 +2228,7 @@
   },
   "SPINOSAURUS;4": {
     "id": "SPINOSAURUS;4",
-    "name": "[Lvl {LVL}] Spinosaurus",
+    "name": "Spinosaurus Pet",
     "recipes": [
       {
         "type": "forge",
@@ -2492,7 +2477,7 @@
   },
   "TYRANNOSAURUS;4": {
     "id": "TYRANNOSAURUS;4",
-    "name": "[Lvl {LVL}] T-Rex",
+    "name": "T-Rex Pet",
     "recipes": [
       {
         "type": "forge",
