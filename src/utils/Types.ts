@@ -8,6 +8,7 @@ export type Item = {
   id: string;
   name: string;
   recipes: Recipe[];
+  icon: string;
 };
 
 export type Items = Record<string, Item>;
@@ -26,4 +27,5 @@ export type TreeViewProps = {
 export type ItemOption = {
   value: string;
   label: string;
+  icon?: string;
 };

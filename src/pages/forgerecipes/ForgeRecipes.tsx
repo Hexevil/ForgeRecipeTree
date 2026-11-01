@@ -48,6 +48,7 @@ function ForgeRecipes(){
     const options : ItemOption[] = forgeItems.map((item) => ({
         value: item.id,
         label: item.name,
+        icon: item.icon,
     }));
 
     const selectStyles: StylesConfig<ItemOption, false> = {
@@ -99,6 +100,21 @@ function ForgeRecipes(){
         }),
     };
 
+    const formatOptionLabel = (option: ItemOption) => (
+        <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
+            {option.icon && (
+            <img
+                src={import.meta.env.BASE_URL + option.icon}
+                alt=""
+                width={24}
+                height={24}
+                style={{ imageRendering: "pixelated" }}
+            />
+            )}
+            <span>{option.label}</span>
+        </div>
+    );
+
     return(
         <div>
             <div className="gap-3 p-3 d-flex justify-content-center align-items-center mb-3">
@@ -107,6 +123,7 @@ function ForgeRecipes(){
             <div className="gap-3 p-3 d-flex justify-content-center align-items-center input-panel">
                 <Select<ItemOption>
                     classNamePrefix="recipe-select"
+                    formatOptionLabel={formatOptionLabel}
                     options={options}
                     styles={selectStyles}
                     value={options.find((o) => o.value === selectedItem) ?? null}
