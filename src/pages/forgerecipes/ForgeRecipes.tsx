@@ -4,11 +4,42 @@ import TreeView from "../forgerecipes/TreeView";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faScroll } from "@fortawesome/free-solid-svg-icons";
 import Select, { type StylesConfig } from "react-select";
+import { createPortal } from "react-dom";
 
 function ForgeRecipes(){
     const [itemsJson, setItemsJson] = useState<Items>({});
-    const [selectedItem, setSelectedItem] = useState<string>("");
-    const [quantityInput, setQuantityInput] = useState<number>(1);
+    const [selectedItem, setSelectedItem] = useState<string>(
+        () => localStorage.getItem("gemvault-item") ?? ""
+    );
+    const [quantityInput, setQuantityInput] = useState<number>(() => {
+        const saved = Number(localStorage.getItem("gemvault-quantity"));
+        return saved >= 1 ? saved : 1;
+    });
+    const [checked, setChecked] = useState<Set<string>>(() => {
+        const saved = localStorage.getItem("gemvault-checked");
+        return new Set(saved ? JSON.parse(saved) : []);
+    });
+    const [showReset, setShowReset] = useState(false);
+
+    useEffect(() => {
+        if (!showReset) return;
+
+        const previous = document.body.style.overflow;
+        document.body.style.overflow = "hidden";
+
+        return () => {
+            document.body.style.overflow = previous;
+        };
+    }, [showReset]);
+
+    useEffect(() => {
+        localStorage.setItem("gemvault-item", selectedItem);
+        localStorage.setItem("gemvault-quantity", String(quantityInput));
+    }, [selectedItem, quantityInput]);
+
+    useEffect(() => {
+        localStorage.setItem("gemvault-checked", JSON.stringify([...checked]));
+    }, [checked]);
 
     useEffect(() => {
         fetch("/recipes/recipes.json")
@@ -116,6 +147,33 @@ function ForgeRecipes(){
         </div>
     );
 
+    const toggleChecked = (path: string) => {
+        setChecked((previous) => {
+            const next = new Set(previous);
+            if (next.has(path)) {
+            next.delete(path);
+            } else {
+            next.add(path);
+            }
+            return next;
+        });
+    };
+
+    const resetChecked = () => {
+        setChecked((previous) => {
+            const next = new Set<string>();
+            previous.forEach((path) => {
+            const belongsToThisRecipe =
+                path === selectedItem || path.startsWith(selectedItem + "/");
+            if (!belongsToThisRecipe) {
+                next.add(path);
+            }
+            });
+            return next;
+        });
+        setShowReset(false);
+    };
+
     return(
         <div>
             <div className="gap-3 p-3 d-flex justify-content-center align-items-center mb-3">
@@ -130,6 +188,7 @@ function ForgeRecipes(){
                     value={options.find((o) => o.value === selectedItem) ?? null}
                     onChange={(option) => setSelectedItem(option ? option.value : "")}
                     placeholder="Select an item..."
+                    isClearable
                     isSearchable
                     className="flex-grow-1"
                 />
@@ -137,13 +196,53 @@ function ForgeRecipes(){
             </div>
             <div className="p-3 justify-content-center align-items-center input-panel-reverse flex-column flex-grow-1">
                 {
+                    selectedItem && (
+                        <div className="d-flex justify-content-between align-items-center mb-3 bottom-separator">
+                            <span className="tree-title mb-2 main-font-tree">Recipe Tree</span>
+                            <button className="reset-btn mb-2 main-font-tree" onClick={() => setShowReset(true)}>
+                                Reset checklist
+                            </button>
+                        </div>
+                    )
+                }
+                {
                     tree === null ? (
-                        <p>No recipe found</p>
+                        <div className="main-font-normal text-center w-100">No recipe found</div>
                     ):(
-                        <TreeView node={tree}></TreeView>
+                        <TreeView 
+                            node={tree}
+                            path={tree.id}
+                            checked={checked}
+                            onToggle={toggleChecked}
+                        />
                     )
                 }
             </div>
+            {showReset &&
+                createPortal(
+                    <>
+                    <div className="modal-backdrop fade show reset-backdrop" onClick={() => setShowReset(false)}></div>
+                    <div className="modal fade show d-block" tabIndex={-1} role="dialog" onClick={() => setShowReset(false)}>
+                        <div className="modal-dialog modal-dialog-centered" onClick={(e) => e.stopPropagation()}>
+                        <div className="modal-content reset-modal">
+                            <div className="modal-body main-font-tree">
+                            Reset all checkmarks for this recipe? This cannot be undone.
+                            </div>
+                            <div className="modal-footer main-font-tree">
+                            <button className="cancel-btn" onClick={() => setShowReset(false)}>
+                                Cancel
+                            </button>
+                            <button className="reset-btn reset-btn-solid main-font-tree" onClick={resetChecked}>
+                                Yes, reset
+                            </button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </>,
+                    document.body
+                )
+            }
         </div>
     );
 }

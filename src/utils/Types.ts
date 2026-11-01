@@ -23,6 +23,9 @@ export type TreeNode = {
 
 export type TreeViewProps = {
     node: TreeNode;
+    path: string;
+    checked: Set<string>;
+    onToggle: (path: string) => void;
 }
 
 export type ItemOption = {

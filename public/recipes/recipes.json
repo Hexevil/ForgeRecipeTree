@@ -510,7 +510,7 @@
         "duration": 72000
       }
     ],
-    "icon": "icons/BEACON_2.png"
+    "icon": "icons/BEACON_1.png"
   },
   "BEACON_1": {
     "id": "BEACON_1",
@@ -533,7 +533,7 @@
         "duration": 108000
       }
     ],
-    "icon": "icons/BEACON_3.png"
+    "icon": "icons/BEACON_1.png"
   },
   "BEACON_4": {
     "id": "BEACON_4",
@@ -551,7 +551,7 @@
         "duration": 144000
       }
     ],
-    "icon": "icons/BEACON_4.png"
+    "icon": "icons/BEACON_1.png"
   },
   "BEACON_5": {
     "id": "BEACON_5",
@@ -569,7 +569,7 @@
         "duration": 180000
       }
     ],
-    "icon": "icons/BEACON_5.png"
+    "icon": "icons/BEACON_1.png"
   },
   "BEJEWELED_COLLAR": {
     "id": "BEJEWELED_COLLAR",
@@ -2750,5 +2750,11 @@
     "name": "Everburning Flame",
     "recipes": [],
     "icon": "icons/EVERBURNING_FLAME.png"
+  },
+  "SKYBLOCK_COIN": {
+    "id": "SKYBLOCK_COIN",
+    "name": "Coins",
+    "recipes": [],
+    "icon": "icons/SKYBLOCK_COIN.png"
   }
 }
