@@ -17,6 +17,7 @@ export type TreeNode = {
     id: string;
     name: string;
     quantity: number;
+    icon?: string;
     children: TreeNode[];
 }
 

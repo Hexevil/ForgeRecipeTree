@@ -39,6 +39,7 @@ function ForgeRecipes(){
             id: item.id,
             name: item.name,
             quantity: quantity,
+            icon: item.icon,
             children: children
         }
 
@@ -120,7 +121,7 @@ function ForgeRecipes(){
             <div className="gap-3 p-3 d-flex justify-content-center align-items-center mb-3">
                 <FontAwesomeIcon className="fs-1" icon={faScroll} /><span className="main-font-bold fs-1">Forge Recipes</span>
             </div>
-            <div className="gap-3 p-3 d-flex justify-content-center align-items-center input-panel">
+            <div className="gap-3 p-3 d-flex justify-content-center align-items-center input-panel mb-3">
                 <Select<ItemOption>
                     classNamePrefix="recipe-select"
                     formatOptionLabel={formatOptionLabel}
@@ -134,10 +135,10 @@ function ForgeRecipes(){
                 />
                 <input className="dark-input" type="number" value={quantityInput} min="1" onChange={(e)=> setQuantityInput(Math.max(1, Number(e.target.value)))}/>
             </div>
-            <div>
+            <div className="p-3 justify-content-center align-items-center input-panel-reverse flex-column flex-grow-1">
                 {
                     tree === null ? (
-                        <p>Nessun tree</p>
+                        <p>No recipe found</p>
                     ):(
                         <TreeView node={tree}></TreeView>
                     )
