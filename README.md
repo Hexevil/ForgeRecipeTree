@@ -1,6 +1,6 @@
 HexVault
 
-A recipe tree viewer for Hypixel SkyBlock forge items. Pick an item and an amount, and Gemvault shows the whole ingredient tree, down to the raw materials.
+A recipe tree viewer for Hypixel SkyBlock forge items. Pick an item and an amount, and HexVault shows the whole ingredient tree, down to the raw materials.
 
 Live site: LINK_TO_YOUR_GITHUB_PAGES_SITE
 
