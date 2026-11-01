@@ -42,7 +42,7 @@ function ForgeRecipes(){
     }, [checked]);
 
     useEffect(() => {
-        fetch("/recipes/recipes.json")
+        fetch(import.meta.env.BASE_URL + "recipes/recipes.json")
         .then((res) => res.json())
         .then((data) => setItemsJson(data));
     },[]);

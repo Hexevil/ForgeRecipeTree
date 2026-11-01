@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faScroll } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -7,10 +7,12 @@ function Navbar(){
     return(
         <aside className="sidebar glass-nav d-flex flex-column align-items-center p-2">
             <div className="d-flex align-items-center gap-3 fs-3 fw-bold mb-3">
-                <span className="bottom-separator p-2">
-                    <span className="text-white main-font-bold">Hex</span>
-                    <span className="lilac-text main-font-bold">Vault</span>
-                </span>
+                <Link to="/" className="sidebar-title nav-link">
+                    <span className="bottom-separator p-2">
+                        <span className="text-white main-font-bold">Hex</span>
+                        <span className="lilac-text main-font-bold">Vault</span>
+                    </span>
+                </Link>
             </div>
 
             <ul className="nav flex-column w-100 justify-content-center">
