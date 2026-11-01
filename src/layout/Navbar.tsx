@@ -1,23 +1,25 @@
-import drill from "../assets/drill/655.gif";
-import wheathoe from "../assets/wheathoe/wheathoe.png";
+import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faScroll } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar(){
     return(
-        <nav className="navbar sticky-top glass-nav" data-bs-theme="dark">
-            <div className="container justify-content-center gap-3">
-                <img src={drill} 
-                    alt="Drill" 
-                    height={32} 
-                    style={{ imageRendering: "pixelated" }}
-                />
-                <span><span className="fs-2 fw-bold text-white main-font">GEM</span><span className="fs-2 fw-bold jasper-text main-font">VAULT</span></span>
-                <img src={wheathoe} 
-                    alt="Wheat Hoe" 
-                    height={32} 
-                    style={{ imageRendering: "pixelated" }}
-                />
+        <aside className="sidebar glass-nav d-flex flex-column align-items-center p-2">
+            <div className="d-flex align-items-center gap-3 fs-3 fw-bold mb-3">
+                <span className="bottom-separator p-2">
+                    <span className="text-white main-font-bold">Hex</span>
+                    <span className="lilac-text main-font-bold">Vault</span>
+                </span>
             </div>
-        </nav>
+
+            <ul className="nav flex-column w-100 justify-content-center">
+                <li className="nav-item justify-content-center">
+                    <NavLink to="/forgeRecipes" className="nav-link text-white text-center p-1 gap-2 d-flex align-items-center justify-content-center">
+                        <FontAwesomeIcon icon={faScroll} /><span className="main-font-normal">Forge Recipes</span>
+                    </NavLink>
+                </li>
+            </ul>
+        </aside>
     );
 }
 
