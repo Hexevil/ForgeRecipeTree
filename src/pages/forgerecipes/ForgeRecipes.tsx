@@ -101,7 +101,7 @@ function ForgeRecipes(){
 
     return(
         <div>
-            <div className="gap-3 p-3 d-flex justify-content-center align-items-center input-panel mb-3">
+            <div className="gap-3 p-3 d-flex justify-content-center align-items-center mb-3">
                 <FontAwesomeIcon className="fs-1" icon={faScroll} /><span className="main-font-bold fs-1">Forge Recipes</span>
             </div>
             <div className="gap-3 p-3 d-flex justify-content-center align-items-center input-panel">

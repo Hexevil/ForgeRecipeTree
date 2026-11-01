@@ -13,7 +13,8 @@
         "overrideOutputId": "AMBER_MATERIAL",
         "duration": 21600
       }
-    ]
+    ],
+    "icon": "icons/AMBER_MATERIAL.png"
   },
   "GOLDEN_PLATE": {
     "id": "GOLDEN_PLATE",
@@ -30,12 +31,14 @@
         "overrideOutputId": "GOLDEN_PLATE",
         "duration": 21600
       }
-    ]
+    ],
+    "icon": "icons/GOLDEN_PLATE.png"
   },
   "ENCHANTED_GOLD_BLOCK": {
     "id": "ENCHANTED_GOLD_BLOCK",
     "name": "Enchanted Gold Block",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_GOLD_BLOCK.png"
   },
   "REFINED_DIAMOND": {
     "id": "REFINED_DIAMOND",
@@ -50,22 +53,26 @@
         "overrideOutputId": "REFINED_DIAMOND",
         "duration": 28800
       }
-    ]
+    ],
+    "icon": "icons/REFINED_DIAMOND.png"
   },
   "ENCHANTED_DIAMOND_BLOCK": {
     "id": "ENCHANTED_DIAMOND_BLOCK",
     "name": "Enchanted Diamond Block",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_DIAMOND_BLOCK.png"
   },
   "GLACITE_JEWEL": {
     "id": "GLACITE_JEWEL",
     "name": "Glacite Jewel",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/GLACITE_JEWEL.png"
   },
   "FINE_AMBER_GEM": {
     "id": "FINE_AMBER_GEM",
     "name": "Fine Amber Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FINE_AMBER_GEM.png"
   },
   "AMBER_NECKLACE": {
     "id": "AMBER_NECKLACE",
@@ -81,17 +88,20 @@
         "overrideOutputId": "AMBER_NECKLACE",
         "duration": 86400
       }
-    ]
+    ],
+    "icon": "icons/AMBER_NECKLACE.png"
   },
   "GLOSSY_GEMSTONE": {
     "id": "GLOSSY_GEMSTONE",
     "name": "Glossy Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/GLOSSY_GEMSTONE.png"
   },
   "FLAWLESS_AMBER_GEM": {
     "id": "FLAWLESS_AMBER_GEM",
     "name": "Flawless Amber Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWLESS_AMBER_GEM.png"
   },
   "AMBER_POLISHED_DRILL_ENGINE": {
     "id": "AMBER_POLISHED_DRILL_ENGINE",
@@ -110,7 +120,8 @@
         "overrideOutputId": "AMBER_POLISHED_DRILL_ENGINE",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/AMBER_POLISHED_DRILL_ENGINE.png"
   },
   "DRILL_ENGINE": {
     "id": "DRILL_ENGINE",
@@ -128,22 +139,26 @@
         "overrideOutputId": "DRILL_ENGINE",
         "duration": 108000
       }
-    ]
+    ],
+    "icon": "icons/DRILL_ENGINE.png"
   },
   "ENCHANTED_IRON_BLOCK": {
     "id": "ENCHANTED_IRON_BLOCK",
     "name": "Enchanted Iron Block",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_IRON_BLOCK.png"
   },
   "ENCHANTED_REDSTONE_BLOCK": {
     "id": "ENCHANTED_REDSTONE_BLOCK",
     "name": "Enchanted Redstone Block",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_REDSTONE_BLOCK.png"
   },
   "TREASURITE": {
     "id": "TREASURITE",
     "name": "Treasurite",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/TREASURITE.png"
   },
   "PERFECT_AMBER_GEM": {
     "id": "PERFECT_AMBER_GEM",
@@ -159,17 +174,20 @@
         "overrideOutputId": "PERFECT_AMBER_GEM",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_AMBER_GEM.png"
   },
   "AMBER_CRYSTAL": {
     "id": "AMBER_CRYSTAL",
     "name": "Amber Crystal",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/AMBER_CRYSTAL.png"
   },
   "PRECURSOR_APPARATUS": {
     "id": "PRECURSOR_APPARATUS",
     "name": "Precursor Apparatus",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/PRECURSOR_APPARATUS.png"
   },
   "SAPPHIRE_POLISHED_DRILL_ENGINE": {
     "id": "SAPPHIRE_POLISHED_DRILL_ENGINE",
@@ -188,7 +206,8 @@
         "overrideOutputId": "SAPPHIRE_POLISHED_DRILL_ENGINE",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/SAPPHIRE_POLISHED_DRILL_ENGINE.png"
   },
   "PERFECT_SAPPHIRE_GEM": {
     "id": "PERFECT_SAPPHIRE_GEM",
@@ -204,17 +223,20 @@
         "overrideOutputId": "PERFECT_SAPPHIRE_GEM",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_SAPPHIRE_GEM.png"
   },
   "FLAWLESS_SAPPHIRE_GEM": {
     "id": "FLAWLESS_SAPPHIRE_GEM",
     "name": "Flawless Sapphire Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWLESS_SAPPHIRE_GEM.png"
   },
   "SAPPHIRE_CRYSTAL": {
     "id": "SAPPHIRE_CRYSTAL",
     "name": "Sapphire Crystal",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/SAPPHIRE_CRYSTAL.png"
   },
   "RUBY_POLISHED_DRILL_ENGINE": {
     "id": "RUBY_POLISHED_DRILL_ENGINE",
@@ -232,7 +254,8 @@
         "overrideOutputId": "RUBY_POLISHED_DRILL_ENGINE",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/RUBY_POLISHED_DRILL_ENGINE.png"
   },
   "PERFECT_RUBY_GEM": {
     "id": "PERFECT_RUBY_GEM",
@@ -248,17 +271,20 @@
         "overrideOutputId": "PERFECT_RUBY_GEM",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_RUBY_GEM.png"
   },
   "RUBY_CRYSTAL": {
     "id": "RUBY_CRYSTAL",
     "name": "Ruby Crystal",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/RUBY_CRYSTAL.png"
   },
   "FLAWLESS_RUBY_GEM": {
     "id": "FLAWLESS_RUBY_GEM",
     "name": "Flawless Ruby Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWLESS_RUBY_GEM.png"
   },
   "TITANIUM_DRILL_ENGINE": {
     "id": "TITANIUM_DRILL_ENGINE",
@@ -275,7 +301,8 @@
         "overrideOutputId": "TITANIUM_DRILL_ENGINE",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_DRILL_ENGINE.png"
   },
   "MITHRIL_DRILL_ENGINE": {
     "id": "MITHRIL_DRILL_ENGINE",
@@ -291,7 +318,8 @@
         "overrideOutputId": "MITHRIL_DRILL_ENGINE",
         "duration": 86400
       }
-    ]
+    ],
+    "icon": "icons/MITHRIL_DRILL_ENGINE.png"
   },
   "MITHRIL_PLATE": {
     "id": "MITHRIL_PLATE",
@@ -309,7 +337,8 @@
         "overrideOutputId": "MITHRIL_PLATE",
         "duration": 64800
       }
-    ]
+    ],
+    "icon": "icons/MITHRIL_PLATE.png"
   },
   "REFINED_TITANIUM": {
     "id": "REFINED_TITANIUM",
@@ -324,12 +353,14 @@
         "overrideOutputId": "REFINED_TITANIUM",
         "duration": 43200
       }
-    ]
+    ],
+    "icon": "icons/REFINED_TITANIUM.png"
   },
   "ENCHANTED_TITANIUM": {
     "id": "ENCHANTED_TITANIUM",
     "name": "Enchanted Titanium",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_TITANIUM.png"
   },
   "REFINED_MITHRIL": {
     "id": "REFINED_MITHRIL",
@@ -344,17 +375,20 @@
         "overrideOutputId": "REFINED_MITHRIL",
         "duration": 21600
       }
-    ]
+    ],
+    "icon": "icons/REFINED_MITHRIL.png"
   },
   "ENCHANTED_MITHRIL": {
     "id": "ENCHANTED_MITHRIL",
     "name": "Enchanted Mithril",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_MITHRIL.png"
   },
   "PLASMA": {
     "id": "PLASMA",
     "name": "Plasma",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/PLASMA.png"
   },
   "AMETHYST_GAUNTLET": {
     "id": "AMETHYST_GAUNTLET",
@@ -370,12 +404,14 @@
         "overrideOutputId": "AMETHYST_GAUNTLET",
         "duration": 86400
       }
-    ]
+    ],
+    "icon": "icons/AMETHYST_GAUNTLET.png"
   },
   "FLAWLESS_AMETHYST_GEM": {
     "id": "FLAWLESS_AMETHYST_GEM",
     "name": "Flawless Amethyst Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWLESS_AMETHYST_GEM.png"
   },
   "AMMONITE;4": {
     "id": "AMMONITE;4",
@@ -391,12 +427,14 @@
         "overrideOutputId": "AMMONITE;4",
         "duration": 259200
       }
-    ]
+    ],
+    "icon": "icons/AMMONITE;4.png"
   },
   "HELIX": {
     "id": "HELIX",
     "name": "Helix Fossil",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/HELIX.png"
   },
   "ANKYLOSAURUS;4": {
     "id": "ANKYLOSAURUS;4",
@@ -412,17 +450,20 @@
         "duration": 604800,
         "overrideOutputId": "ANKYLOSAURUS;4"
       }
-    ]
+    ],
+    "icon": "icons/ANKYLOSAURUS;4.png"
   },
   "FLAWLESS_OPAL_GEM": {
     "id": "FLAWLESS_OPAL_GEM",
     "name": "Flawless Opal Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWLESS_OPAL_GEM.png"
   },
   "CLUBBED_FOSSIL": {
     "id": "CLUBBED_FOSSIL",
     "name": "Clubbed Fossil",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/CLUBBED_FOSSIL.png"
   },
   "BASE_CAMP_TRAVEL_SCROLL": {
     "id": "BASE_CAMP_TRAVEL_SCROLL",
@@ -439,17 +480,20 @@
         "overrideOutputId": "BASE_CAMP_TRAVEL_SCROLL",
         "duration": 36000
       }
-    ]
+    ],
+    "icon": "icons/BASE_CAMP_TRAVEL_SCROLL.png"
   },
   "FLAWLESS_ONYX_GEM": {
     "id": "FLAWLESS_ONYX_GEM",
     "name": "Flawless Onyx Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWLESS_ONYX_GEM.png"
   },
   "ENCHANTED_ENDER_PEARL": {
     "id": "ENCHANTED_ENDER_PEARL",
     "name": "Enchanted Ender Pearl",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_ENDER_PEARL.png"
   },
   "BEACON_2": {
     "id": "BEACON_2",
@@ -465,12 +509,14 @@
         "overrideOutputId": "BEACON_2",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/BEACON_2.png"
   },
   "BEACON_1": {
     "id": "BEACON_1",
     "name": "Beacon I",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/BEACON_1.png"
   },
   "BEACON_3": {
     "id": "BEACON_3",
@@ -486,7 +532,8 @@
         "overrideOutputId": "BEACON_3",
         "duration": 108000
       }
-    ]
+    ],
+    "icon": "icons/BEACON_3.png"
   },
   "BEACON_4": {
     "id": "BEACON_4",
@@ -503,7 +550,8 @@
         "overrideOutputId": "BEACON_4",
         "duration": 144000
       }
-    ]
+    ],
+    "icon": "icons/BEACON_4.png"
   },
   "BEACON_5": {
     "id": "BEACON_5",
@@ -520,7 +568,8 @@
         "overrideOutputId": "BEACON_5",
         "duration": 180000
       }
-    ]
+    ],
+    "icon": "icons/BEACON_5.png"
   },
   "BEJEWELED_COLLAR": {
     "id": "BEJEWELED_COLLAR",
@@ -536,7 +585,8 @@
         "overrideOutputId": "BEJEWELED_COLLAR",
         "duration": 7200
       }
-    ]
+    ],
+    "icon": "icons/BEJEWELED_COLLAR.png"
   },
   "BEJEWELED_HANDLE": {
     "id": "BEJEWELED_HANDLE",
@@ -551,7 +601,8 @@
         "overrideOutputId": "BEJEWELED_HANDLE",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/BEJEWELED_HANDLE.png"
   },
   "CRYSTAL_HOLLOWS_TRAVEL_SCROLL": {
     "id": "CRYSTAL_HOLLOWS_TRAVEL_SCROLL",
@@ -569,17 +620,20 @@
         "overrideOutputId": "CRYSTAL_HOLLOWS_TRAVEL_SCROLL",
         "duration": 36000
       }
-    ]
+    ],
+    "icon": "icons/CRYSTAL_HOLLOWS_TRAVEL_SCROLL.png"
   },
   "FLAWED_RUBY_GEM": {
     "id": "FLAWED_RUBY_GEM",
     "name": "Flawed Ruby Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWED_RUBY_GEM.png"
   },
   "FINE_RUBY_GEM": {
     "id": "FINE_RUBY_GEM",
     "name": "Fine Ruby Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FINE_RUBY_GEM.png"
   },
   "DIAMONITE": {
     "id": "DIAMONITE",
@@ -594,7 +648,8 @@
         "overrideOutputId": "DIAMONITE",
         "duration": 21600
       }
-    ]
+    ],
+    "icon": "icons/DIAMONITE.png"
   },
   "DIVAN_BOOTS": {
     "id": "DIVAN_BOOTS",
@@ -611,7 +666,8 @@
         "overrideOutputId": "DIVAN_BOOTS",
         "duration": 86400
       }
-    ]
+    ],
+    "icon": "icons/DIVAN_BOOTS.png"
   },
   "GEMSTONE_MIXTURE": {
     "id": "GEMSTONE_MIXTURE",
@@ -630,32 +686,38 @@
         "overrideOutputId": "GEMSTONE_MIXTURE",
         "duration": 14400
       }
-    ]
+    ],
+    "icon": "icons/GEMSTONE_MIXTURE.png"
   },
   "FINE_JADE_GEM": {
     "id": "FINE_JADE_GEM",
     "name": "Fine Jade Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FINE_JADE_GEM.png"
   },
   "SLUDGE_JUICE": {
     "id": "SLUDGE_JUICE",
     "name": "Sludge Juice",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/SLUDGE_JUICE.png"
   },
   "FINE_SAPPHIRE_GEM": {
     "id": "FINE_SAPPHIRE_GEM",
     "name": "Fine Sapphire Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FINE_SAPPHIRE_GEM.png"
   },
   "FINE_AMETHYST_GEM": {
     "id": "FINE_AMETHYST_GEM",
     "name": "Fine Amethyst Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FINE_AMETHYST_GEM.png"
   },
   "DIVAN_FRAGMENT": {
     "id": "DIVAN_FRAGMENT",
     "name": "Divan Fragment",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/DIVAN_FRAGMENT.png"
   },
   "DIVAN_CHESTPLATE": {
     "id": "DIVAN_CHESTPLATE",
@@ -672,7 +734,8 @@
         "overrideOutputId": "DIVAN_CHESTPLATE",
         "duration": 86400
       }
-    ]
+    ],
+    "icon": "icons/DIVAN_CHESTPLATE.png"
   },
   "DIVAN_DRILL": {
     "id": "DIVAN_DRILL",
@@ -715,7 +778,8 @@
   "CORLEONITE": {
     "id": "CORLEONITE",
     "name": "Corleonite",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/CORLEONITE.png"
   },
   "TITANIUM_DRILL_3": {
     "id": "TITANIUM_DRILL_3",
@@ -787,17 +851,20 @@
         "overrideOutputId": "FUEL_TANK",
         "duration": 36000
       }
-    ]
+    ],
+    "icon": "icons/FUEL_TANK.png"
   },
   "ENCHANTED_COAL_BLOCK": {
     "id": "ENCHANTED_COAL_BLOCK",
     "name": "Enchanted Coal Block",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_COAL_BLOCK.png"
   },
   "DIVAN_ALLOY": {
     "id": "DIVAN_ALLOY",
     "name": "Divan's Alloy",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/DIVAN_ALLOY.png"
   },
   "DIVAN_HELMET": {
     "id": "DIVAN_HELMET",
@@ -814,7 +881,8 @@
         "overrideOutputId": "DIVAN_HELMET",
         "duration": 86400
       }
-    ]
+    ],
+    "icon": "icons/DIVAN_HELMET.png"
   },
   "DIVAN_LEGGINGS": {
     "id": "DIVAN_LEGGINGS",
@@ -831,7 +899,8 @@
         "overrideOutputId": "DIVAN_LEGGINGS",
         "duration": 86400
       }
-    ]
+    ],
+    "icon": "icons/DIVAN_LEGGINGS.png"
   },
   "DIVAN_PENDANT": {
     "id": "DIVAN_PENDANT",
@@ -848,7 +917,8 @@
         "overrideOutputId": "DIVAN_PENDANT",
         "duration": 604800
       }
-    ]
+    ],
+    "icon": "icons/DIVAN_PENDANT.png"
   },
   "PERFECT_PLATE": {
     "id": "PERFECT_PLATE",
@@ -865,7 +935,8 @@
         "duration": 1800,
         "overrideOutputId": "PERFECT_PLATE"
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_PLATE.png"
   },
   "UMBER_PLATE": {
     "id": "UMBER_PLATE",
@@ -881,7 +952,8 @@
         "overrideOutputId": "UMBER_PLATE",
         "duration": 10800
       }
-    ]
+    ],
+    "icon": "icons/UMBER_PLATE.png"
   },
   "REFINED_UMBER": {
     "id": "REFINED_UMBER",
@@ -896,12 +968,14 @@
         "overrideOutputId": "REFINED_UMBER",
         "duration": 3600
       }
-    ]
+    ],
+    "icon": "icons/REFINED_UMBER.png"
   },
   "ENCHANTED_UMBER": {
     "id": "ENCHANTED_UMBER",
     "name": "Enchanted Umber",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_UMBER.png"
   },
   "GLACITE_AMALGAMATION": {
     "id": "GLACITE_AMALGAMATION",
@@ -920,32 +994,38 @@
         "duration": 14400,
         "overrideOutputId": "GLACITE_AMALGAMATION"
       }
-    ]
+    ],
+    "icon": "icons/GLACITE_AMALGAMATION.png"
   },
   "ENCHANTED_GLACITE": {
     "id": "ENCHANTED_GLACITE",
     "name": "Enchanted Glacite",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_GLACITE.png"
   },
   "FINE_PERIDOT_GEM": {
     "id": "FINE_PERIDOT_GEM",
     "name": "Fine Peridot Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FINE_PERIDOT_GEM.png"
   },
   "FINE_AQUAMARINE_GEM": {
     "id": "FINE_AQUAMARINE_GEM",
     "name": "Fine Aquamarine Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FINE_AQUAMARINE_GEM.png"
   },
   "FINE_CITRINE_GEM": {
     "id": "FINE_CITRINE_GEM",
     "name": "Fine Citrine Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FINE_CITRINE_GEM.png"
   },
   "FINE_ONYX_GEM": {
     "id": "FINE_ONYX_GEM",
     "name": "Fine Onyx Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FINE_ONYX_GEM.png"
   },
   "TUNGSTEN_PLATE": {
     "id": "TUNGSTEN_PLATE",
@@ -961,7 +1041,8 @@
         "overrideOutputId": "TUNGSTEN_PLATE",
         "duration": 10800
       }
-    ]
+    ],
+    "icon": "icons/TUNGSTEN_PLATE.png"
   },
   "REFINED_TUNGSTEN": {
     "id": "REFINED_TUNGSTEN",
@@ -976,17 +1057,20 @@
         "overrideOutputId": "REFINED_TUNGSTEN",
         "duration": 3600
       }
-    ]
+    ],
+    "icon": "icons/REFINED_TUNGSTEN.png"
   },
   "ENCHANTED_TUNGSTEN": {
     "id": "ENCHANTED_TUNGSTEN",
     "name": "Enchanted Tungsten",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_TUNGSTEN.png"
   },
   "SHATTERED_PENDANT": {
     "id": "SHATTERED_PENDANT",
     "name": "Shattered Locket",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/SHATTERED_PENDANT.png"
   },
   "DIVAN_POWDER_COATING": {
     "id": "DIVAN_POWDER_COATING",
@@ -1004,12 +1088,14 @@
         "duration": 129600,
         "overrideOutputId": "DIVAN_POWDER_COATING"
       }
-    ]
+    ],
+    "icon": "icons/DIVAN_POWDER_COATING.png"
   },
   "REFINED_MINERAL": {
     "id": "REFINED_MINERAL",
     "name": "Refined Mineral",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/REFINED_MINERAL.png"
   },
   "DWARVEN_HANDWARMERS": {
     "id": "DWARVEN_HANDWARMERS",
@@ -1027,12 +1113,14 @@
         "duration": 14400,
         "overrideOutputId": "DWARVEN_HANDWARMERS"
       }
-    ]
+    ],
+    "icon": "icons/DWARVEN_HANDWARMERS.png"
   },
   "FLAWLESS_JADE_GEM": {
     "id": "FLAWLESS_JADE_GEM",
     "name": "Flawless Jade Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWLESS_JADE_GEM.png"
   },
   "DWARVEN_METAL": {
     "id": "DWARVEN_METAL",
@@ -1049,7 +1137,8 @@
         "duration": 86400,
         "overrideOutputId": "DWARVEN_METAL"
       }
-    ]
+    ],
+    "icon": "icons/DWARVEN_METAL.png"
   },
   "FORGE_TRAVEL_SCROLL": {
     "id": "FORGE_TRAVEL_SCROLL",
@@ -1067,17 +1156,20 @@
         "overrideOutputId": "FORGE_TRAVEL_SCROLL",
         "duration": 18000
       }
-    ]
+    ],
+    "icon": "icons/FORGE_TRAVEL_SCROLL.png"
   },
   "MITHRIL_ORE": {
     "id": "MITHRIL_ORE",
     "name": "Mithril",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/MITHRIL_ORE.png"
   },
   "TITANIUM_ORE": {
     "id": "TITANIUM_ORE",
     "name": "Titanium",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/TITANIUM_ORE.png"
   },
   "FRIGID_HUSK": {
     "id": "FRIGID_HUSK",
@@ -1093,7 +1185,8 @@
         "overrideOutputId": "FRIGID_HUSK",
         "duration": 21600
       }
-    ]
+    ],
+    "icon": "icons/FRIGID_HUSK.png"
   },
   "GEMSTONE_CHAMBER": {
     "id": "GEMSTONE_CHAMBER",
@@ -1110,12 +1203,14 @@
         "overrideOutputId": "GEMSTONE_CHAMBER",
         "duration": 14400
       }
-    ]
+    ],
+    "icon": "icons/GEMSTONE_CHAMBER.png"
   },
   "WORM_MEMBRANE": {
     "id": "WORM_MEMBRANE",
     "name": "Worm Membrane",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/WORM_MEMBRANE.png"
   },
   "GEMSTONE_DRILL_1": {
     "id": "GEMSTONE_DRILL_1",
@@ -1171,12 +1266,14 @@
   "FLAWLESS_TOPAZ_GEM": {
     "id": "FLAWLESS_TOPAZ_GEM",
     "name": "Flawless Topaz Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWLESS_TOPAZ_GEM.png"
   },
   "MAGMA_CORE": {
     "id": "MAGMA_CORE",
     "name": "Magma Core",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/MAGMA_CORE.png"
   },
   "GEMSTONE_DRILL_4": {
     "id": "GEMSTONE_DRILL_4",
@@ -1199,7 +1296,8 @@
   "FLAWLESS_JASPER_GEM": {
     "id": "FLAWLESS_JASPER_GEM",
     "name": "Flawless Jasper Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWLESS_JASPER_GEM.png"
   },
   "GEMSTONE_FUEL_TANK": {
     "id": "GEMSTONE_FUEL_TANK",
@@ -1216,7 +1314,8 @@
         "overrideOutputId": "GEMSTONE_FUEL_TANK",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/GEMSTONE_FUEL_TANK.png"
   },
   "TITANIUM_FUEL_TANK": {
     "id": "TITANIUM_FUEL_TANK",
@@ -1234,7 +1333,8 @@
         "overrideOutputId": "TITANIUM_FUEL_TANK",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_FUEL_TANK.png"
   },
   "MITHRIL_FUEL_TANK": {
     "id": "MITHRIL_FUEL_TANK",
@@ -1251,7 +1351,8 @@
         "overrideOutputId": "MITHRIL_FUEL_TANK",
         "duration": 86400
       }
-    ]
+    ],
+    "icon": "icons/MITHRIL_FUEL_TANK.png"
   },
   "GLACITE_CHISEL": {
     "id": "GLACITE_CHISEL",
@@ -1269,7 +1370,8 @@
         "duration": 30,
         "overrideOutputId": "GLACITE_CHISEL"
       }
-    ]
+    ],
+    "icon": "icons/GLACITE_CHISEL.png"
   },
   "REINFORCED_CHISEL": {
     "id": "REINFORCED_CHISEL",
@@ -1287,12 +1389,14 @@
         "duration": 30,
         "overrideOutputId": "REINFORCED_CHISEL"
       }
-    ]
+    ],
+    "icon": "icons/REINFORCED_CHISEL.png"
   },
   "CHISEL": {
     "id": "CHISEL",
     "name": "Chisel",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/CHISEL.png"
   },
   "GLACITE_LANTERN": {
     "id": "GLACITE_LANTERN",
@@ -1309,7 +1413,8 @@
         "overrideOutputId": "GLACITE_LANTERN",
         "duration": 43200
       }
-    ]
+    ],
+    "icon": "icons/GLACITE_LANTERN.png"
   },
   "TITANIUM_LANTERN": {
     "id": "TITANIUM_LANTERN",
@@ -1326,7 +1431,8 @@
         "overrideOutputId": "TITANIUM_LANTERN",
         "duration": 14400
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_LANTERN.png"
   },
   "MITHRIL_LANTERN": {
     "id": "MITHRIL_LANTERN",
@@ -1343,12 +1449,14 @@
         "overrideOutputId": "MITHRIL_LANTERN",
         "duration": 1800
       }
-    ]
+    ],
+    "icon": "icons/MITHRIL_LANTERN.png"
   },
   "LANTERN": {
     "id": "LANTERN",
     "name": "Dwarven Lantern",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/LANTERN.png"
   },
   "ENCHANTED_EMERALD": {
     "id": "ENCHANTED_EMERALD",
@@ -1380,12 +1488,14 @@
         "C3": "",
         "count": 9
       }
-    ]
+    ],
+    "icon": "icons/ENCHANTED_EMERALD.png"
   },
   "ENCHANTED_EMERALD_BLOCK": {
     "id": "ENCHANTED_EMERALD_BLOCK",
     "name": "Enchanted Emerald Block",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_EMERALD_BLOCK.png"
   },
   "GLEAMING_CRYSTAL": {
     "id": "GLEAMING_CRYSTAL",
@@ -1402,7 +1512,8 @@
         "overrideOutputId": "GLEAMING_CRYSTAL",
         "duration": 21600
       }
-    ]
+    ],
+    "icon": "icons/GLEAMING_CRYSTAL.png"
   },
   "GOBLIN;4": {
     "id": "GOBLIN;4",
@@ -1418,12 +1529,14 @@
         "overrideOutputId": "GOBLIN;4",
         "duration": 604800
       }
-    ]
+    ],
+    "icon": "icons/GOBLIN;4.png"
   },
   "UGLY_FOSSIL": {
     "id": "UGLY_FOSSIL",
     "name": "Ugly Fossil",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/UGLY_FOSSIL.png"
   },
   "GOBLIN_OMELETTE": {
     "id": "GOBLIN_OMELETTE",
@@ -1438,12 +1551,14 @@
         "overrideOutputId": "GOBLIN_OMELETTE",
         "duration": 64800
       }
-    ]
+    ],
+    "icon": "icons/GOBLIN_OMELETTE.png"
   },
   "GOBLIN_EGG": {
     "id": "GOBLIN_EGG",
     "name": "Goblin Egg",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/GOBLIN_EGG.png"
   },
   "GOBLIN_OMELETTE_BLUE_CHEESE": {
     "id": "GOBLIN_OMELETTE_BLUE_CHEESE",
@@ -1460,12 +1575,14 @@
         "overrideOutputId": "GOBLIN_OMELETTE_BLUE_CHEESE",
         "duration": 64800
       }
-    ]
+    ],
+    "icon": "icons/GOBLIN_OMELETTE_BLUE_CHEESE.png"
   },
   "GOBLIN_EGG_BLUE": {
     "id": "GOBLIN_EGG_BLUE",
     "name": "Blue Goblin Egg",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/GOBLIN_EGG_BLUE.png"
   },
   "GOBLIN_OMELETTE_PESTO": {
     "id": "GOBLIN_OMELETTE_PESTO",
@@ -1482,12 +1599,14 @@
         "overrideOutputId": "GOBLIN_OMELETTE_PESTO",
         "duration": 64800
       }
-    ]
+    ],
+    "icon": "icons/GOBLIN_OMELETTE_PESTO.png"
   },
   "GOBLIN_EGG_GREEN": {
     "id": "GOBLIN_EGG_GREEN",
     "name": "Green Goblin Egg",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/GOBLIN_EGG_GREEN.png"
   },
   "GOBLIN_OMELETTE_SPICY": {
     "id": "GOBLIN_OMELETTE_SPICY",
@@ -1504,12 +1623,14 @@
         "overrideOutputId": "GOBLIN_OMELETTE_SPICY",
         "duration": 64800
       }
-    ]
+    ],
+    "icon": "icons/GOBLIN_OMELETTE_SPICY.png"
   },
   "GOBLIN_EGG_RED": {
     "id": "GOBLIN_EGG_RED",
     "name": "Red Goblin Egg",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/GOBLIN_EGG_RED.png"
   },
   "GOBLIN_OMELETTE_SUNNY_SIDE": {
     "id": "GOBLIN_OMELETTE_SUNNY_SIDE",
@@ -1526,12 +1647,14 @@
         "overrideOutputId": "GOBLIN_OMELETTE_SUNNY_SIDE",
         "duration": 64800
       }
-    ]
+    ],
+    "icon": "icons/GOBLIN_OMELETTE_SUNNY_SIDE.png"
   },
   "GOBLIN_EGG_YELLOW": {
     "id": "GOBLIN_EGG_YELLOW",
     "name": "Yellow Goblin Egg",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/GOBLIN_EGG_YELLOW.png"
   },
   "HOT_STUFF": {
     "id": "HOT_STUFF",
@@ -1547,12 +1670,14 @@
         "overrideOutputId": "HOT_STUFF",
         "duration": 21600
       }
-    ]
+    ],
+    "icon": "icons/HOT_STUFF.png"
   },
   "ENCHANTED_HARD_STONE": {
     "id": "ENCHANTED_HARD_STONE",
     "name": "Enchanted Hard Stone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_HARD_STONE.png"
   },
   "JADE_BELT": {
     "id": "JADE_BELT",
@@ -1568,7 +1693,8 @@
         "overrideOutputId": "JADE_BELT",
         "duration": 86400
       }
-    ]
+    ],
+    "icon": "icons/JADE_BELT.png"
   },
   "MAMMOTH;4": {
     "id": "MAMMOTH;4",
@@ -1584,12 +1710,14 @@
         "duration": 604800,
         "overrideOutputId": "MAMMOTH;4"
       }
-    ]
+    ],
+    "icon": "icons/MAMMOTH;4.png"
   },
   "TUSK_FOSSIL": {
     "id": "TUSK_FOSSIL",
     "name": "Tusk Fossil",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/TUSK_FOSSIL.png"
   },
   "MITHRIL_BELT": {
     "id": "MITHRIL_BELT",
@@ -1604,7 +1732,8 @@
         "overrideOutputId": "MITHRIL_BELT",
         "duration": 3600
       }
-    ]
+    ],
+    "icon": "icons/MITHRIL_BELT.png"
   },
   "MITHRIL_CLOAK": {
     "id": "MITHRIL_CLOAK",
@@ -1619,7 +1748,8 @@
         "overrideOutputId": "MITHRIL_CLOAK",
         "duration": 3600
       }
-    ]
+    ],
+    "icon": "icons/MITHRIL_CLOAK.png"
   },
   "MITHRIL_DRILL_1": {
     "id": "MITHRIL_DRILL_1",
@@ -1668,7 +1798,8 @@
         "overrideOutputId": "MITHRIL_GAUNTLET",
         "duration": 3600
       }
-    ]
+    ],
+    "icon": "icons/MITHRIL_GAUNTLET.png"
   },
   "MITHRIL_NECKLACE": {
     "id": "MITHRIL_NECKLACE",
@@ -1683,7 +1814,8 @@
         "overrideOutputId": "MITHRIL_NECKLACE",
         "duration": 3600
       }
-    ]
+    ],
+    "icon": "icons/MITHRIL_NECKLACE.png"
   },
   "MOLE;4": {
     "id": "MOLE;4",
@@ -1699,12 +1831,14 @@
         "overrideOutputId": "MOLE;4",
         "duration": 259200
       }
-    ]
+    ],
+    "icon": "icons/MOLE;4.png"
   },
   "CLAW_FOSSIL": {
     "id": "CLAW_FOSSIL",
     "name": "Claw Fossil",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/CLAW_FOSSIL.png"
   },
   "PENGUIN;4": {
     "id": "PENGUIN;4",
@@ -1720,17 +1854,20 @@
         "duration": 604800,
         "overrideOutputId": "PENGUIN;4"
       }
-    ]
+    ],
+    "icon": "icons/PENGUIN;4.png"
   },
   "WEBBED_FOSSIL": {
     "id": "WEBBED_FOSSIL",
     "name": "Webbed Fossil",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/WEBBED_FOSSIL.png"
   },
   "FLAWLESS_AQUAMARINE_GEM": {
     "id": "FLAWLESS_AQUAMARINE_GEM",
     "name": "Flawless Aquamarine Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWLESS_AQUAMARINE_GEM.png"
   },
   "PERFECTLY_CUT_FUEL_TANK": {
     "id": "PERFECTLY_CUT_FUEL_TANK",
@@ -1748,7 +1885,8 @@
         "overrideOutputId": "PERFECTLY_CUT_FUEL_TANK",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/PERFECTLY_CUT_FUEL_TANK.png"
   },
   "PERFECT_AMETHYST_GEM": {
     "id": "PERFECT_AMETHYST_GEM",
@@ -1764,12 +1902,14 @@
         "overrideOutputId": "PERFECT_AMETHYST_GEM",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_AMETHYST_GEM.png"
   },
   "AMETHYST_CRYSTAL": {
     "id": "AMETHYST_CRYSTAL",
     "name": "Amethyst Crystal",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/AMETHYST_CRYSTAL.png"
   },
   "PERFECT_AQUAMARINE_GEM": {
     "id": "PERFECT_AQUAMARINE_GEM",
@@ -1785,12 +1925,14 @@
         "overrideOutputId": "PERFECT_AQUAMARINE_GEM",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_AQUAMARINE_GEM.png"
   },
   "AQUAMARINE_CRYSTAL": {
     "id": "AQUAMARINE_CRYSTAL",
     "name": "Aquamarine Crystal",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/AQUAMARINE_CRYSTAL.png"
   },
   "PERFECT_CHISEL": {
     "id": "PERFECT_CHISEL",
@@ -1807,7 +1949,8 @@
         "duration": 30,
         "overrideOutputId": "PERFECT_CHISEL"
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_CHISEL.png"
   },
   "PERFECT_CITRINE_GEM": {
     "id": "PERFECT_CITRINE_GEM",
@@ -1823,17 +1966,20 @@
         "overrideOutputId": "PERFECT_CITRINE_GEM",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_CITRINE_GEM.png"
   },
   "FLAWLESS_CITRINE_GEM": {
     "id": "FLAWLESS_CITRINE_GEM",
     "name": "Flawless Citrine Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWLESS_CITRINE_GEM.png"
   },
   "CITRINE_CRYSTAL": {
     "id": "CITRINE_CRYSTAL",
     "name": "Citrine Crystal",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/CITRINE_CRYSTAL.png"
   },
   "PERFECT_JADE_GEM": {
     "id": "PERFECT_JADE_GEM",
@@ -1849,12 +1995,14 @@
         "overrideOutputId": "PERFECT_JADE_GEM",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_JADE_GEM.png"
   },
   "JADE_CRYSTAL": {
     "id": "JADE_CRYSTAL",
     "name": "Jade Crystal",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/JADE_CRYSTAL.png"
   },
   "PERFECT_JASPER_GEM": {
     "id": "PERFECT_JASPER_GEM",
@@ -1870,12 +2018,14 @@
         "overrideOutputId": "PERFECT_JASPER_GEM",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_JASPER_GEM.png"
   },
   "JASPER_CRYSTAL": {
     "id": "JASPER_CRYSTAL",
     "name": "Jasper Crystal",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/JASPER_CRYSTAL.png"
   },
   "PERFECT_ONYX_GEM": {
     "id": "PERFECT_ONYX_GEM",
@@ -1891,12 +2041,14 @@
         "overrideOutputId": "PERFECT_ONYX_GEM",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_ONYX_GEM.png"
   },
   "ONYX_CRYSTAL": {
     "id": "ONYX_CRYSTAL",
     "name": "Onyx Crystal",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ONYX_CRYSTAL.png"
   },
   "PERFECT_OPAL_GEM": {
     "id": "PERFECT_OPAL_GEM",
@@ -1912,12 +2064,14 @@
         "overrideOutputId": "PERFECT_OPAL_GEM",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_OPAL_GEM.png"
   },
   "OPAL_CRYSTAL": {
     "id": "OPAL_CRYSTAL",
     "name": "Opal Crystal",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/OPAL_CRYSTAL.png"
   },
   "PERFECT_PERIDOT_GEM": {
     "id": "PERFECT_PERIDOT_GEM",
@@ -1933,17 +2087,20 @@
         "overrideOutputId": "PERFECT_PERIDOT_GEM",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_PERIDOT_GEM.png"
   },
   "PERIDOT_CRYSTAL": {
     "id": "PERIDOT_CRYSTAL",
     "name": "Peridot Crystal",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/PERIDOT_CRYSTAL.png"
   },
   "FLAWLESS_PERIDOT_GEM": {
     "id": "FLAWLESS_PERIDOT_GEM",
     "name": "Flawless Peridot Gemstone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FLAWLESS_PERIDOT_GEM.png"
   },
   "PERFECT_TOPAZ_GEM": {
     "id": "PERFECT_TOPAZ_GEM",
@@ -1959,12 +2116,14 @@
         "overrideOutputId": "PERFECT_TOPAZ_GEM",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/PERFECT_TOPAZ_GEM.png"
   },
   "TOPAZ_CRYSTAL": {
     "id": "TOPAZ_CRYSTAL",
     "name": "Topaz Crystal",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/TOPAZ_CRYSTAL.png"
   },
   "PETRIFIED_STARFALL": {
     "id": "PETRIFIED_STARFALL",
@@ -1979,12 +2138,14 @@
         "overrideOutputId": "PETRIFIED_STARFALL",
         "duration": 21600
       }
-    ]
+    ],
+    "icon": "icons/PETRIFIED_STARFALL.png"
   },
   "STARFALL": {
     "id": "STARFALL",
     "name": "Starfall",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/STARFALL.png"
   },
   "POCKET_ICEBERG": {
     "id": "POCKET_ICEBERG",
@@ -1999,7 +2160,8 @@
         "overrideOutputId": "POCKET_ICEBERG",
         "duration": 21600
       }
-    ]
+    ],
+    "icon": "icons/POCKET_ICEBERG.png"
   },
   "POLISHED_TOPAZ_ROD": {
     "id": "POLISHED_TOPAZ_ROD",
@@ -2015,7 +2177,8 @@
         "overrideOutputId": "POLISHED_TOPAZ_ROD",
         "duration": 43200
       }
-    ]
+    ],
+    "icon": "icons/POLISHED_TOPAZ_ROD.png"
   },
   "PORTABLE_CAMPFIRE": {
     "id": "PORTABLE_CAMPFIRE",
@@ -2031,12 +2194,14 @@
         "duration": 1800,
         "overrideOutputId": "PORTABLE_CAMPFIRE"
       }
-    ]
+    ],
+    "icon": "icons/PORTABLE_CAMPFIRE.png"
   },
   "MATCH_STICKS": {
     "id": "MATCH_STICKS",
     "name": "Match-Sticks",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/MATCH_STICKS.png"
   },
   "POWDER_OF_ONE": {
     "id": "POWDER_OF_ONE",
@@ -2052,7 +2217,8 @@
         "duration": 3600,
         "overrideOutputId": "POWDER_OF_ONE"
       }
-    ]
+    ],
+    "icon": "icons/POWDER_OF_ONE.png"
   },
   "POWDER_OF_THE_FEW": {
     "id": "POWDER_OF_THE_FEW",
@@ -2069,7 +2235,8 @@
         "duration": 3600,
         "overrideOutputId": "POWDER_OF_THE_FEW"
       }
-    ]
+    ],
+    "icon": "icons/POWDER_OF_THE_FEW.png"
   },
   "POWDER_OF_THE_MANY": {
     "id": "POWDER_OF_THE_MANY",
@@ -2086,7 +2253,8 @@
         "duration": 21600,
         "overrideOutputId": "POWDER_OF_THE_MANY"
       }
-    ]
+    ],
+    "icon": "icons/POWDER_OF_THE_MANY.png"
   },
   "POWER_CRYSTAL": {
     "id": "POWER_CRYSTAL",
@@ -2101,7 +2269,8 @@
         "overrideOutputId": "POWER_CRYSTAL",
         "duration": 7200
       }
-    ]
+    ],
+    "icon": "icons/POWER_CRYSTAL.png"
   },
   "POWER_RELIC": {
     "id": "POWER_RELIC",
@@ -2118,12 +2287,14 @@
         "duration": 28800,
         "overrideOutputId": "POWER_RELIC"
       }
-    ]
+    ],
+    "icon": "icons/POWER_RELIC.png"
   },
   "POWER_ARTIFACT": {
     "id": "POWER_ARTIFACT",
     "name": "Artifact of Power",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/POWER_ARTIFACT.png"
   },
   "PRECURSOR_DRONE;4": {
     "id": "PRECURSOR_DRONE;4",
@@ -2139,7 +2310,8 @@
         "duration": 259200,
         "overrideOutputId": "PRECURSOR_DRONE;4"
       }
-    ]
+    ],
+    "icon": "icons/PRECURSOR_DRONE;4.png"
   },
   "PURE_MITHRIL": {
     "id": "PURE_MITHRIL",
@@ -2154,7 +2326,8 @@
         "overrideOutputId": "PURE_MITHRIL",
         "duration": 21600
       }
-    ]
+    ],
+    "icon": "icons/PURE_MITHRIL.png"
   },
   "ROCK_GEMSTONE": {
     "id": "ROCK_GEMSTONE",
@@ -2170,12 +2343,14 @@
         "overrideOutputId": "ROCK_GEMSTONE",
         "duration": 21600
       }
-    ]
+    ],
+    "icon": "icons/ROCK_GEMSTONE.png"
   },
   "ENCHANTED_COBBLESTONE": {
     "id": "ENCHANTED_COBBLESTONE",
     "name": "Enchanted Cobblestone",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/ENCHANTED_COBBLESTONE.png"
   },
   "SAPPHIRE_CLOAK": {
     "id": "SAPPHIRE_CLOAK",
@@ -2191,7 +2366,8 @@
         "overrideOutputId": "SAPPHIRE_CLOAK",
         "duration": 86400
       }
-    ]
+    ],
+    "icon": "icons/SAPPHIRE_CLOAK.png"
   },
   "SECRET_RAILROAD_PASS": {
     "id": "SECRET_RAILROAD_PASS",
@@ -2208,7 +2384,8 @@
         "duration": 30,
         "overrideOutputId": "SECRET_RAILROAD_PASS"
       }
-    ]
+    ],
+    "icon": "icons/SECRET_RAILROAD_PASS.png"
   },
   "SKELETON_KEY": {
     "id": "SKELETON_KEY",
@@ -2224,7 +2401,8 @@
         "overrideOutputId": "SKELETON_KEY",
         "duration": 1800
       }
-    ]
+    ],
+    "icon": "icons/SKELETON_KEY.png"
   },
   "SPINOSAURUS;4": {
     "id": "SPINOSAURUS;4",
@@ -2240,12 +2418,14 @@
         "overrideOutputId": "SPINOSAURUS;4",
         "duration": 604800
       }
-    ]
+    ],
+    "icon": "icons/SPINOSAURUS;4.png"
   },
   "SPINE_FOSSIL": {
     "id": "SPINE_FOSSIL",
     "name": "Spine Fossil",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/SPINE_FOSSIL.png"
   },
   "STARFALL_SEASONING": {
     "id": "STARFALL_SEASONING",
@@ -2261,7 +2441,8 @@
         "overrideOutputId": "STARFALL_SEASONING",
         "duration": 64800
       }
-    ]
+    ],
+    "icon": "icons/STARFALL_SEASONING.png"
   },
   "TITANIUM_ARTIFACT": {
     "id": "TITANIUM_ARTIFACT",
@@ -2277,7 +2458,8 @@
         "overrideOutputId": "TITANIUM_ARTIFACT",
         "duration": 129600
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_ARTIFACT.png"
   },
   "TITANIUM_RING": {
     "id": "TITANIUM_RING",
@@ -2293,7 +2475,8 @@
         "overrideOutputId": "TITANIUM_RING",
         "duration": 72000
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_RING.png"
   },
   "TITANIUM_TALISMAN": {
     "id": "TITANIUM_TALISMAN",
@@ -2308,7 +2491,8 @@
         "overrideOutputId": "TITANIUM_TALISMAN",
         "duration": 50400
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_TALISMAN.png"
   },
   "TITANIUM_BELT": {
     "id": "TITANIUM_BELT",
@@ -2325,7 +2509,8 @@
         "overrideOutputId": "TITANIUM_BELT",
         "duration": 16200
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_BELT.png"
   },
   "TITANIUM_CLOAK": {
     "id": "TITANIUM_CLOAK",
@@ -2342,7 +2527,8 @@
         "overrideOutputId": "TITANIUM_CLOAK",
         "duration": 16200
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_CLOAK.png"
   },
   "TITANIUM_GAUNTLET": {
     "id": "TITANIUM_GAUNTLET",
@@ -2359,7 +2545,8 @@
         "overrideOutputId": "TITANIUM_GAUNTLET",
         "duration": 16200
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_GAUNTLET.png"
   },
   "TITANIUM_NECKLACE": {
     "id": "TITANIUM_NECKLACE",
@@ -2376,7 +2563,8 @@
         "overrideOutputId": "TITANIUM_NECKLACE",
         "duration": 16200
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_NECKLACE.png"
   },
   "TITANIUM_RELIC": {
     "id": "TITANIUM_RELIC",
@@ -2392,7 +2580,8 @@
         "overrideOutputId": "TITANIUM_RELIC",
         "duration": 259200
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_RELIC.png"
   },
   "TITANIUM_TESSERACT": {
     "id": "TITANIUM_TESSERACT",
@@ -2408,7 +2597,8 @@
         "overrideOutputId": "TITANIUM_TESSERACT",
         "duration": 21600
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_TESSERACT.png"
   },
   "ENCHANTED_LAPIS_LAZULI": {
     "id": "ENCHANTED_LAPIS_LAZULI",
@@ -2440,7 +2630,8 @@
         "C3": "",
         "count": 9
       }
-    ]
+    ],
+    "icon": "icons/ENCHANTED_LAPIS_LAZULI.png"
   },
   "TUNGSTEN_KEY": {
     "id": "TUNGSTEN_KEY",
@@ -2456,7 +2647,8 @@
         "overrideOutputId": "TUNGSTEN_KEY",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/TUNGSTEN_KEY.png"
   },
   "TUNGSTEN_KEYCHAIN": {
     "id": "TUNGSTEN_KEYCHAIN",
@@ -2473,7 +2665,8 @@
         "duration": 64800,
         "overrideOutputId": "TUNGSTEN_KEYCHAIN"
       }
-    ]
+    ],
+    "icon": "icons/TUNGSTEN_KEYCHAIN.png"
   },
   "TYRANNOSAURUS;4": {
     "id": "TYRANNOSAURUS;4",
@@ -2489,12 +2682,14 @@
         "overrideOutputId": "TYRANNOSAURUS;4",
         "duration": 604800
       }
-    ]
+    ],
+    "icon": "icons/TYRANNOSAURUS;4.png"
   },
   "FOOTPRINT_FOSSIL": {
     "id": "FOOTPRINT_FOSSIL",
     "name": "Footprint Fossil",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/FOOTPRINT_FOSSIL.png"
   },
   "UMBER_KEY": {
     "id": "UMBER_KEY",
@@ -2510,7 +2705,8 @@
         "overrideOutputId": "UMBER_KEY",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/UMBER_KEY.png"
   },
   "WILL_O_WISP": {
     "id": "WILL_O_WISP",
@@ -2529,16 +2725,19 @@
         "overrideOutputId": "WILL_O_WISP",
         "duration": 86400
       }
-    ]
+    ],
+    "icon": "icons/WILL_O_WISP.png"
   },
   "CAGED_WISP": {
     "id": "CAGED_WISP",
     "name": "Caged Wisp",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/CAGED_WISP.png"
   },
   "EVERBURNING_FLAME": {
     "id": "EVERBURNING_FLAME",
     "name": "Everburning Flame",
-    "recipes": []
+    "recipes": [],
+    "icon": "icons/EVERBURNING_FLAME.png"
   }
 }
