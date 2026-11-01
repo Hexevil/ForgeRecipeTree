@@ -71,6 +71,7 @@ function ForgeRecipes(){
             name: item.name,
             quantity: quantity,
             icon: item.icon,
+            rarity: item.rarity,
             children: children
         }
 
@@ -81,18 +82,40 @@ function ForgeRecipes(){
         value: item.id,
         label: item.name,
         icon: item.icon,
+        rarity: item.rarity,
     }));
 
+    const RARITY_COLORS: Record<string, { text: string; border: string }> = {
+        COMMON: { text: "#d1d5d8", border: "#d1d5d8" },
+        UNCOMMON: { text: "#55ff55", border: "#55ff55" },
+        RARE: { text: "#7b7bff", border: "#5555ff" },
+        EPIC: { text: "#c24bff", border: "#aa00aa" },
+        LEGENDARY: { text: "#ffaa00", border: "#ffaa00" },
+        MYTHIC: { text: "#ff55ff", border: "#ff55ff" },
+        DIVINE: { text: "#55ffff", border: "#55ffff" },
+        SPECIAL: { text: "#ff5555", border: "#ff5555" },
+        };
+
+    const DEFAULT_COLORS = { text: "#d4d4d4", border: "#333" };
+
+    const rarityColors = (rarity?: string) => (rarity && RARITY_COLORS[rarity]) || DEFAULT_COLORS;
+
     const selectStyles: StylesConfig<ItemOption, false> = {
-        control: (base, state) => ({
-            ...base,
-            backgroundColor: "#141414",
-            borderColor: state.isFocused ? "#d8a7ff" : "#333",
-            borderRadius: 8,
-            minHeight: "2.8rem",
-            boxShadow: "none",
-            "&:hover": { borderColor: state.isFocused ? "#d8a7ff" : "#444" },
-        }),
+        control: (base, state) => {
+            const selected = state.getValue()[0];
+            const rarityBorder = selected ? rarityColors(selected.rarity).border : undefined;
+            return {
+                ...base,
+                backgroundColor: "#141414",
+                borderColor: rarityBorder ?? (state.isFocused ? "#d8a7ff" : "#333"),
+                borderRadius: 8,
+                minHeight: "2.8rem",
+                boxShadow: "none",
+                "&:hover": {
+                borderColor: rarityBorder ?? (state.isFocused ? "#d8a7ff" : "#444"),
+                },
+            };
+        },
         menu: (base) => ({
             ...base,
             backgroundColor: "#141414",
@@ -106,13 +129,16 @@ function ForgeRecipes(){
         }),
         option: (base, state) => ({
             ...base,
-            backgroundColor: state.isFocused ? "rgba(216, 167, 255, 0.12)" : "transparent",
+            backgroundColor: state.isFocused ? "rgba(255, 255, 255, 0.06)" : "transparent",
             color: "#d4d4d4",
+            border:
+                "1px solid " +
+                (state.isFocused ? rarityColors(state.data.rarity).border : "transparent"),
             borderRadius: 6,
             cursor: "pointer",
-            ":active": { backgroundColor: "rgba(216, 167, 255, 0.2)" },
+            ":active": { backgroundColor: "rgba(255, 255, 255, 0.1)" },
         }),
-        singleValue: (base) => ({
+                singleValue: (base) => ({
             ...base,
             color: "#d4d4d4",
         }),
@@ -143,18 +169,20 @@ function ForgeRecipes(){
                 style={{ imageRendering: "pixelated" }}
             />
             )}
-            <span>{option.label}</span>
+            <span style={{ color: rarityColors(option.rarity).text }}>{option.label}</span>
         </div>
     );
 
-    const toggleChecked = (path: string) => {
+    const toggleChecked = (paths: string[], value: boolean) => {
         setChecked((previous) => {
             const next = new Set(previous);
-            if (next.has(path)) {
-            next.delete(path);
+            paths.forEach((path) => {
+            if (value) {
+                next.add(path);
             } else {
-            next.add(path);
+                next.delete(path);
             }
+            });
             return next;
         });
     };

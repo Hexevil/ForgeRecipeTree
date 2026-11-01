@@ -9,6 +9,7 @@ export type Item = {
   name: string;
   recipes: Recipe[];
   icon: string;
+  rarity?: string;
 };
 
 export type Items = Record<string, Item>;
@@ -18,6 +19,7 @@ export type TreeNode = {
     name: string;
     quantity: number;
     icon?: string;
+    rarity?: string;
     children: TreeNode[];
 }
 
@@ -25,11 +27,12 @@ export type TreeViewProps = {
     node: TreeNode;
     path: string;
     checked: Set<string>;
-    onToggle: (path: string) => void;
+    onToggle: (paths: string[], value: boolean) => void;
 }
 
 export type ItemOption = {
   value: string;
   label: string;
   icon?: string;
+  rarity?: string;
 };

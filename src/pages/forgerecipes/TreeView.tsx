@@ -2,19 +2,20 @@ import { useState } from "react";
 import type { TreeViewProps } from "../../utils/Types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronRight} from "@fortawesome/free-solid-svg-icons";
+import { isNodeChecked, leafPaths } from "../../utils/Functions";
 
 function TreeView({node, path, checked, onToggle}: TreeViewProps){
     const [isOpen, setIsOpen] = useState(true);
-    const isChecked = checked.has(path);
+    const isChecked = isNodeChecked(node, path, checked);
 
     return (
         <li className="w-100 tree-list">
-            <div className="gap-2 d-flex align-items-center tree-pill" onClick={() => setIsOpen(!isOpen)}>
+            <div className={"gap-2 d-flex align-items-center tree-pill rarity-" + (node.rarity ?? "none").toLowerCase()} onClick={() => setIsOpen(!isOpen)}>
                 <input
                     type="checkbox"
                     className="tree-check"
                     checked={isChecked}
-                    onChange={() => onToggle(path)}
+                    onChange={() => onToggle(leafPaths(node, path), !isChecked)}
                     onClick={(e) => e.stopPropagation()}
                 />
                 <span className="tree-qty main-font-tree">
@@ -35,7 +36,7 @@ function TreeView({node, path, checked, onToggle}: TreeViewProps){
                 )}
             </div>
             {node.children.length > 0 && (
-                <ul style={isOpen ? undefined : { display: "none" }}>
+                <ul className="tree-children" style={isOpen ? undefined : { display: "none" }}>
                     {node.children.map((child) => (
                         <TreeView 
                             key={child.id} 

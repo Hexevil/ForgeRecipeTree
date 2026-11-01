@@ -340,3 +340,73 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.rarity-common { border-color: #d1d5d8; }
+.rarity-common .tree-name { color: #d1d5d8; }
+
+.rarity-uncommon { border-color: #55ff55; }
+.rarity-uncommon .tree-name { color: #55ff55; }
+
+.rarity-rare { border-color: #5555ff; }
+.rarity-rare .tree-name { color: #7b7bff; }
+
+.rarity-epic { border-color: #aa00aa; }
+.rarity-epic .tree-name { color: #c24bff; }
+
+.rarity-legendary { border-color: #ffaa00; }
+.rarity-legendary .tree-name { color: #ffaa00; }
+
+.rarity-mythic { border-color: #ff55ff; }
+.rarity-mythic .tree-name { color: #ff55ff; }
+
+.rarity-divine { border-color: #55ffff; }
+.rarity-divine .tree-name { color: #55ffff; }
+
+.rarity-special { border-color: #ff5555; }
+.rarity-special .tree-name { color: #ff5555; }
+
+.tree-children {
+  list-style: none;
+  margin: 0 0 0 1.1rem;
+  padding: 0 0 0 1.1rem;
+}
+
+.tree-children > li {
+  position: relative;
+}
+
+.tree-children > li::after {
+  content: "";
+  position: absolute;
+  left: -1.1rem;
+  top: 0;
+  bottom: 0;
+  border-left: 2px solid rgba(216, 167, 255, 0.25);
+  transition: border-color 0.15s;
+}
+
+.tree-children > li::before {
+  content: "";
+  position: absolute;
+  left: -1.1rem;
+  top: 0;
+  width: 1.1rem;
+  height: 1.45rem;
+  border-bottom: 2px solid rgba(216, 167, 255, 0.25);
+  border-left: 2px solid rgba(216, 167, 255, 0.25);
+  border-bottom-left-radius: 12px;
+  transition: border-color 0.15s;
+}
+
+.tree-children > li:last-child::after {
+  display: none;
+}
+
+.tree-children > li:hover::after {
+  border-left-color: rgba(216, 167, 255, 0.6);
+}
+
+.tree-children > li:hover::before {
+  border-bottom-color: rgba(216, 167, 255, 0.6);
+  border-left-color: rgba(216, 167, 255, 0.6);
+}
