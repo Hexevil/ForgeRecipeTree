@@ -752,7 +752,8 @@
         "overrideOutputId": "DIVAN_DRILL",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/DIVAN_DRILL.png"
   },
   "TITANIUM_DRILL_4": {
     "id": "TITANIUM_DRILL_4",
@@ -773,7 +774,8 @@
         "overrideOutputId": "TITANIUM_DRILL_4",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_DRILL_4.png"
   },
   "CORLEONITE": {
     "id": "CORLEONITE",
@@ -799,7 +801,8 @@
         "overrideOutputId": "TITANIUM_DRILL_3",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_DRILL_3.png"
   },
   "TITANIUM_DRILL_2": {
     "id": "TITANIUM_DRILL_2",
@@ -817,7 +820,8 @@
         "overrideOutputId": "TITANIUM_DRILL_2",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_DRILL_2.png"
   },
   "TITANIUM_DRILL_1": {
     "id": "TITANIUM_DRILL_1",
@@ -836,7 +840,8 @@
         "overrideOutputId": "TITANIUM_DRILL_1",
         "duration": 14400
       }
-    ]
+    ],
+    "icon": "icons/TITANIUM_DRILL_1.png"
   },
   "FUEL_TANK": {
     "id": "FUEL_TANK",
@@ -1227,7 +1232,8 @@
         "overrideOutputId": "GEMSTONE_DRILL_1",
         "duration": 14400
       }
-    ]
+    ],
+    "icon": "icons/GEMSTONE_DRILL_1.png"
   },
   "GEMSTONE_DRILL_2": {
     "id": "GEMSTONE_DRILL_2",
@@ -1243,7 +1249,8 @@
         "overrideOutputId": "GEMSTONE_DRILL_2",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/GEMSTONE_DRILL_2.png"
   },
   "GEMSTONE_DRILL_3": {
     "id": "GEMSTONE_DRILL_3",
@@ -1261,7 +1268,8 @@
         "overrideOutputId": "GEMSTONE_DRILL_3",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/GEMSTONE_DRILL_3.png"
   },
   "FLAWLESS_TOPAZ_GEM": {
     "id": "FLAWLESS_TOPAZ_GEM",
@@ -1291,7 +1299,8 @@
         "overrideOutputId": "GEMSTONE_DRILL_4",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/GEMSTONE_DRILL_4.png"
   },
   "FLAWLESS_JASPER_GEM": {
     "id": "FLAWLESS_JASPER_GEM",
@@ -1766,7 +1775,8 @@
         "overrideOutputId": "MITHRIL_DRILL_1",
         "duration": 14400
       }
-    ]
+    ],
+    "icon": "icons/MITHRIL_DRILL_1.png"
   },
   "MITHRIL_DRILL_2": {
     "id": "MITHRIL_DRILL_2",
@@ -1783,7 +1793,8 @@
         "overrideOutputId": "MITHRIL_DRILL_2",
         "duration": 30
       }
-    ]
+    ],
+    "icon": "icons/MITHRIL_DRILL_2.png"
   },
   "MITHRIL_GAUNTLET": {
     "id": "MITHRIL_GAUNTLET",

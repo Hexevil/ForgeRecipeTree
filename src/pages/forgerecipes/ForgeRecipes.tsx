@@ -22,7 +22,7 @@ function ForgeRecipes(){
 
     const constructTreeNode = function(id:string, quantity:number) : TreeNode{
         const item = itemsJson[id];
-        const recipe = item.recipes[0];
+        const recipe = item?.recipes[0];
         const inputs = recipe?.inputs ?? [];
 
         const children = inputs.map((input)=>{
