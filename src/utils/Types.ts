@@ -22,3 +22,8 @@ export type TreeNode = {
 export type TreeViewProps = {
     node: TreeNode;
 }
+
+export type ItemOption = {
+  value: string;
+  label: string;
+};
